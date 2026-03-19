@@ -20,7 +20,7 @@ For our project, we will use a combination of datasets describing the Delhi Metr
 - **[Delhi Metro Dataset (Kaggle)](https://www.kaggle.com/datasets/nikhilkumar766/delhi-metro-dataset)** is a complementary dataset used for additional station metadata (# of passengers, cost per passenger, ...).
 - **[Wikipedia — List of Delhi Metro stations](https://en.wikipedia.org/wiki/List_of_Delhi_Metro_stations)** is scraped via the script `wikidata_scraping.ipynb` to enrich station entries with additional attributes not present in the Kaggle datasets (the main purpose is completing the first dataset with the new stations opened after 2019).
 
-![image](./images/pasted_20260319-022930.png)  
+![image](./images/Dataset_samples.png)  
 *Sample examples from the **[Delhi Metro Network](https://www.kaggle.com/datasets/arashnic/metro-network-dynamics?resource=download)** dataset*
 
  The Kaggle datasets are well-structured and complete, with consistent column naming and no missing coordinates. There are minor issues, including a small number of inconsistent transliterations of station names, a few stations missing their opening year, and few stations missing that were opened recently. Therefore, preprocessing effort is relatively low, as the data is clean enough to begin visualization after a join between the datasets.
