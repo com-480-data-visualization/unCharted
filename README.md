@@ -1,10 +1,12 @@
 # Project of Data Visualization (COM-480)
 
-| Student's name | SCIPER |
-| -------------- | ------ |
+
+| Student's name     | SCIPER |
+| ------------------ | ------ |
 | Najmeddine ABBASSI | 341889 |
-| Verter STOILOV | 328691 |
-| Malen RAYCHEV | 287015 |
+| Verter STOILOV     | 328691 |
+| Malen RAYCHEV      | 287015 |
+
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
@@ -12,48 +14,58 @@
 
 ### Dataset
 
-We use a combination of publicly available datasets describing the Delhi Metro Rail network:
+For our project, we will use a combination of datasets describing the Delhi Metro Rail network:
 
-- **[Delhi Metro Network (Kaggle)](https://www.kaggle.com/datasets/arashnic/metro-network-dynamics?resource=download)** — station names, line assignments, geographic coordinates (latitude/longitude), opening dates, and layout type (elevated/underground/at-grade) for all ~286 operational stations across 10 lines.
-- **[Delhi Metro Dataset (Kaggle)](https://www.kaggle.com/datasets/nikhilkumar766/delhi-metro-dataset)** — complementary dataset used for cross-validation and additional station metadata.
-- **[Wikipedia — List of Delhi Metro stations](https://en.wikipedia.org/wiki/List_of_Delhi_Metro_stations)** — scraped via a custom script (`wikidata_scraping.ipynb`) to enrich station entries with additional attributes not present in the Kaggle datasets.
+- **[Delhi Metro Network (Kaggle)](https://www.kaggle.com/datasets/arashnic/metro-network-dynamics?resource=download)** is our main dataset, containing station names, line assignments, geographic coordinates (latitude/longitude), opening dates, and layout type (elevated/underground/at-grade) for all operational stations across 10 lines between 2002 and 2019.
+- **[Delhi Metro Dataset (Kaggle)](https://www.kaggle.com/datasets/nikhilkumar766/delhi-metro-dataset)** is a complementary dataset used for additional station metadata (# of passengers, cost per passenger, ...).
+- **[Wikipedia — List of Delhi Metro stations](https://en.wikipedia.org/wiki/List_of_Delhi_Metro_stations)** is scraped via the script `wikidata_scraping.ipynb` to enrich station entries with additional attributes not present in the Kaggle datasets (the main purpose is completing the first dataset with the new stations opened after 2019).
 
-**Data quality assessment:** The Kaggle datasets are well-structured and complete, with consistent column naming and no missing coordinates. Minor issues include a small number of inconsistent transliterations of station names, a few stations missing their opening year, and few stations missing that were opened recently. Overall, preprocessing effort is low — the data is clean enough to begin visualization after a join between the datasets.
+![image](./images/pasted_20260319-022930.png)  
+*Sample examples from the **[Delhi Metro Network](https://www.kaggle.com/datasets/arashnic/metro-network-dynamics?resource=download)** dataset*
+
+ The Kaggle datasets are well-structured and complete, with consistent column naming and no missing coordinates. There are minor issues, including a small number of inconsistent transliterations of station names, a few stations missing their opening year, and few stations missing that were opened recently. Therefore, preprocessing effort is relatively low, as the data is clean enough to begin visualization after a join between the datasets.
 
 ### Problematic
 
-The main goal of this project is to visualize the New Delhi Metro as an interactive system rather than a static transport map. The idea is to show the geographic footprint of the network and the structure behind it: location of each station, connections between lines, major interchanges, services available at each station, and nearby points of interest. A potential easter egg can be adding a detail like the related work shared down this document, which is the NYC metro station music performers videos.
+Delhi Metro is one of the world's largest and fastest-growing rapid transit systems, expanding to 400 km and serving over 10 million daily riders in just two decades. Yet no existing interactive visualization tells the story of this growth over time.
 
-The general interest of this work is to render the metro network at multiple levels of detail. At the highest level, users see the full network laid out geographically over a city map, color-coded by line. Zooming in reveals individual stations with metadata overlays — construction type, year of opening, interchange status, and nearby landmarks. A timeline mode will let users replay the historical expansion of the network phase by phase, from the first corridor in 2002 to the most recent extensions.
+That is why we aim to build an animated map visualization that lets users explore four dimensions of the metro network's evolution:
 
+1. **Spatial growth** : stations and lines appearing on an interactive map as the network expands.
+2. **Temporal evolution** : an animated timeline (from 2002 to 2025) with a play/pause control and a year by year progression.
+3. **Station-level detail** : clickable stations revealing metadata, images, and contextual information sourced from Wikipedia
+4. **(OPTIONAL) Ridership trends** : traffic flow visualization overlaid on the map, including year-over-year changes and the COVID-19 impact. This point will be very tough to implement due to the lack of public informations on the metro station repartiton of the ridership.
+
+Ideally, the target audience would be urban planning enthusiasts, transit researchers, data visualization students, and Delhi residents interested in the history of their metro system.
 
 ### Exploratory Data Analysis
 
-Full analysis is available in [`data/dataExploration.ipynb`](data/dataExploration.ipynb).
+Full analysis and statistics are available in [data/dataExploration.ipynb](data/dataExploration.ipynb).
 
-### Related work
+### Related Work
 
-- **Official DMRC map** ([dmrc.com](https://www.dmrc.com/)) — a static schematic diagram, not geographically accurate, with no interactivity or historical context.
-- **[NYC Subway Artists map](https://felt.com/map/NYC-Subway-Artists-zhurdEV9CRTaMpxFrcxRieA?loc=40.738477,-73.986106,15.77z)** — an interactive map of street performers across NYC subway stations; a strong inspiration for layering cultural/human data on top of a transit network.
-- **[Rome Metro vs. actual geography](https://www.reddit.com/r/dataisbeautiful/comments/a2hk6j/rome_metro_vs_actual_geography_oc/#lightbox)** — a visualization comparing the schematic metro map to the real geographic layout of the city; directly motivates our goal of grounding the Delhi Metro in its true geographic context.
-- **[NYC Subway Visualization](https://yangdanny97.github.io/nyc-subway-vis/)** — an interactive geographic visualization of the NYC subway network; a direct inspiration for our approach to rendering a metro system with geographic accuracy and interactivity.
-- **[Delhi Metro Interactive Legend (ArcGIS)](https://www.arcgis.com/apps/instant/interactivelegend/index.html?appid=97844910afda457a942bb68499932f83)** — an existing interactive map of the Delhi Metro built on ArcGIS; highlights what is already available and what our visualization aims to go beyond.
+- **Existing Work and Originality**  
+While there are numerous open-source datasets regarding the New Delhi Metro on platforms like Kaggle (such as the [Metro Network Dynamics dataset](https://www.kaggle.com/datasets/arashnic/metro-network-dynamics)), what others have already done with the data is mainly static. Existing projects mostly focus on basic Exploratory Data Analysis ([example 1](https://www.kaggle.com/code/rahulsatti/delhi-metro-analysis), [example 2](https://www.kaggle.com/code/arunjangir245/delhi-metro-brief-eda)), predictive modeling and clustering ([example 3](https://www.kaggle.com/code/kunalgupta2616/clustering-dmrc-stations)), or graph theory applications. Similarly, the [official DMRC map](https://www.delhimetrorail.com/network_map) provides only a static schematic diagram, lacking both true geographic accuracy and historical context. Even existing interactive tools, such as the [Delhi Metro Interactive Legend](https://www.arcgis.com/apps/instant/interactivelegend/index.html?appid=97844910afda457a942bb68499932f83) built on ArcGIS, offer only a baseline of geographic filtering that our visualization aims to go far beyond.   
+  
+Our approach is original because it shifts the focus from static analytics to an interactive, spatio-temporal narrative. Specifically, we are combining three elements not found together in existing work: a geographically accurate interactive map over the real city street grid, an animated timeline of the network growth, and a per-station detail panel surfacing construction type, interchange connections, and nearby landmarks.
 
-Our approach is original in combining three elements not found together in existing work: (1) a geographically accurate interactive map layered over the real city street grid, (2) an animated timeline of network growth phase by phase, and (3) a per-station detail panel surfacing construction type, interchange connections, and nearby landmarks.
+- **Sources of Inspiration**  
+Our work took inspiration from highly effective transit visualizations, drawing primarily from these sources:
+  - **[Danny Yang's NYC Subway Visualization](https://yangdanny97.github.io/nyc-subway-vis/):** This interactive geographic visualization heavily inspired our approach to mapping time-series data onto a spatial grid. In particular, its clean integration of timeline controls, which allow users to scrub through time and watch the network's dynamics visually unfold.
+  - **[Rome Metro vs. Actual Geography](https://www.reddit.com/r/MapPorn/comments/11r1wfh/rome_subway_map_vs_actual_geography/):** This visualization compares a schematic metro map to the real geographic layout of the city. 
+  - **[NYC Subway Artists Map](https://www.arcgis.com/apps/MapJournal/index.html?appid=b8f3d64c23ba49a2a7cc1c35b5a044d0):** This interactive map of street performers across NYC stations serves as a strong inspiration for our per-station detail panels, showing us how to successfully layer specific, localized data on top of a broader transit network.
 
+*(Note: We have not previously explored this dataset in another ML or ADA course context)*.
 
 ## Milestone 2 (17th April, 5pm)
 
 **10% of the final grade**
 
-
 ## Milestone 3 (29th May, 5pm)
 
 **80% of the final grade**
-
 
 ## Late policy
 
 - < 24h: 80% of the grade for the milestone
 - < 48h: 70% of the grade for the milestone
-
