@@ -1,6 +1,6 @@
 Station ID,Station Name,Distance from Start (km),Line,Opening Date,Station Layout,Latitude,Longitude
 1,Jhil Mil,10.3,Red line,2008-04-06,Elevated,28.67579,77.31239
-2,Welcome [Conn: Red],46.8,Pink line,2018-10-31,Elevated,28.6718,77.27756
+2,Welcome [Red],46.8,Pink line,2018-10-31,Elevated,28.6718,77.27756
 3,DLF Phase 3,10,Rapid Metro,2013-11-14,Elevated,28.4936,77.0935
 4,Okhla NSIC,23.8,Magenta line,2017-12-25,Elevated,28.5544828,77.2648487
 5,Dwarka Mor,10.2,Blue line,2005-12-30,Elevated,28.61932,77.03326
@@ -140,7 +140,7 @@ Station ID,Station Name,Distance from Start (km),Line,Opening Date,Station Layou
 139,Sir Vishweshwaraiah Moti Bagh,21,Pink line,2018-06-08,Elevated,28.5785326,77.175741
 140,Ramesh Nagar,20.6,Blue line,2005-12-30,Elevated,28.65274,77.13164
 141,Panchsheel Park,19,Magenta line,2018-05-29,Underground,28.5433525,77.2140757
-142,Welcome [Conn: Pink],13.7,Red line,2002-12-25,Elevated,28.6718,77.27756
+142,Welcome [Pink],13.7,Red line,2002-12-25,Elevated,28.6718,77.27756
 143,Model Town,7.6,Yellow line,2009-04-02,Elevated,28.70278,77.19363
 144,Rithala(last station),32.7,Red line,2004-03-31,Elevated,28.72072,77.10713
 145,Tikri Kalan,18.9,Green line,2018-06-24,Elevated,28.6868661,76.9772069

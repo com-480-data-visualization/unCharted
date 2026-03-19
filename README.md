@@ -10,7 +10,7 @@
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
-## Milestone 1 (18th March)
+## Milestone 1 (20th March)
 
 ### Dataset
 
@@ -18,7 +18,7 @@ For our project, we will use a combination of datasets describing the Delhi Metr
 
 - **[Delhi Metro Network (Kaggle)](https://www.kaggle.com/datasets/arashnic/metro-network-dynamics?resource=download)** is our main dataset, containing station names, line assignments, geographic coordinates (latitude/longitude), opening dates, and layout type (elevated/underground/at-grade) for all operational stations across 10 lines between 2002 and 2019.
 - **[Delhi Metro Dataset (Kaggle)](https://www.kaggle.com/datasets/nikhilkumar766/delhi-metro-dataset)** is a complementary dataset used for additional station metadata (# of passengers, cost per passenger, ...).
-- **[Wikipedia — List of Delhi Metro stations](https://en.wikipedia.org/wiki/List_of_Delhi_Metro_stations)** is scraped via the script `wikidata_scraping.ipynb` to enrich station entries with additional attributes not present in the Kaggle datasets (the main purpose is completing the first dataset with the new stations opened after 2019).
+- **[Wikipedia — List of Delhi Metro stations](https://en.wikipedia.org/wiki/List_of_Delhi_Metro_stations)** is scraped via the script `wikidata_scraping.ipynb` to enrich station entries with additional attributes not present in the Kaggle datasets (the main purpose is further completing the first dataset with the new stations opened after 2019).
 
 ![image](./images/Dataset_samples.png)  
 *Sample examples from the **[Delhi Metro Network](https://www.kaggle.com/datasets/arashnic/metro-network-dynamics?resource=download)** dataset*
