@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>unCharted — Delhi Metro Growth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="loading-screen">
+    <div class="loader-content">
+      <div class="loader-ring"></div>
+      <h1 class="loader-title">un<span>Charted</span></h1>
+      <p class="loader-subtitle">Loading Delhi Metro Network...</p>
+    </div>
+  </div>
+
+  <div id="app">
+    <div id="map"></div>
+
+    <header id="header">
+      <div class="header-left">
+        <h1 class="logo">un<span>Charted</span></h1>
+        <p class="tagline">Delhi Metro · Network Growth</p>
+      </div>
+      <div class="header-right">
+        <div class="stat-pill">🚉 <strong id="stat-stations">—</strong> Stations</div>
+        <div class="stat-pill">🛤️ <strong id="stat-lines">—</strong> Lines</div>
+        <div class="stat-pill">👥 <strong>—</strong> Daily Riders</div>
+        <div class="stat-pill">📏 <strong>—</strong> Network km</div>
+      </div>
+    </header>
+
+    <div id="legend">
+      <h3>Metro Lines</h3>
+      <div id="legend-items"></div>
+    </div>
+
+    <div id="year-display"><span id="current-year">2002</span></div>
+
+    <div id="timeline">
+      <button id="play-btn" class="control-btn" title="Play/Pause">
+        <svg id="play-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
+        <svg id="pause-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" style="display:none"><rect x="5" y="3" width="4" height="18"/><rect x="15" y="3" width="4" height="18"/></svg>
+      </button>
+      <div class="timeline-track">
+        <input type="range" id="year-slider" min="2002" max="2025" value="2002" step="1" />
+        <div id="timeline-progress"></div>
+        <div class="timeline-labels"><span>2002</span><span>2006</span><span>2010</span><span>2014</span><span>2018</span><span>2022</span><span>2025</span></div>
+      </div>
+    </div>
+
+    <div id="station-modal" class="hidden">
+      <div id="modal-backdrop"></div>
+      <div class="modal-panel">
+        <button id="modal-close" class="modal-close">×</button>
+        <div class="modal-content">
+          <div id="modal-badges" class="modal-badges"></div>
+          <h2 id="modal-name"></h2>
+          <p id="modal-info" class="modal-info"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+ID,Station Name,Distance,Line,Opened,Layout,Latitude,Longitude
+1,Shaheed Sthal (New Bus Adda),0,Red,2003,Elevated,28.7186,77.4538
+2,Hindon River,1.48,Red,2003,Elevated,28.7139,77.4398
+3,Arthala,2.93,Red,2003,Elevated,28.7086,77.4258
+4,Mohan Nagar,4.35,Red,2003,Elevated,28.7024,77.4105
+5,Shyam Park,5.84,Red,2003,Elevated,28.6947,77.3956
+6,Major Mohit Sharma Rajendra Nagar,7.12,Red,2003,Elevated,28.6872,77.3825
+7,Raj Bagh,8.61,Red,2003,Elevated,28.6797,77.3677
+8,Shaheed Nagar,10.11,Red,2003,Elevated,28.6746,77.3551
+9,Dilshad Garden,11.46,Red,2003,Elevated,28.6756,77.3215
+10,Jhilmil,12.69,Red,2003,Elevated,28.6748,77.3105
+11,Mansarovar Park,13.87,Red,2003,Elevated,28.6737,77.2954
+12,Shahdara,15.03,Red,2003,Elevated,28.6731,77.2879
+13,Welcome,16.52,Red,2004,Elevated,28.6753,77.2647
+14,Seelampur,17.72,Red,2004,Elevated,28.6710,77.2584
+15,Shastri Park,19.23,Red,2004,Elevated,28.6692,77.2492
+16,Kashmere Gate,21.13,Red,2004,Underground,28.6671,77.2289
+17,Tis Hazari,22.55,Red,2004,Underground,28.6619,77.2187
+18,Pulbangash,23.61,Red,2004,Underground,28.6603,77.2096
+19,Pratap Nagar,24.68,Red,2004,Underground,28.6568,77.2010
+20,Shastri Nagar,25.33,Red,2004,Underground,28.6523,77.1945
+21,Inderlok,26.49,Red,2004,Elevated,28.6513,77.1718
+22,Kanhaiya Nagar,27.69,Red,2004,Elevated,28.6589,77.1636
+23,Keshav Puram,28.85,Red,2004,Elevated,28.6637,77.1534
+24,Netaji Subhash Place,29.79,Red,2004,Elevated,28.6684,77.1488
+25,Kohat Enclave,30.92,Red,2004,Elevated,28.6717,77.1389
+26,Pitampura,31.89,Red,2004,Elevated,28.6756,77.1307
+27,Rohini East,33.54,Red,2004,Elevated,28.6832,77.1218
+28,Rohini West,34.95,Red,2004,Elevated,28.6894,77.1078
+29,Rithala,36.24,Red,2004,Elevated,28.6928,77.1004
+30,Samaypur Badli,0,Yellow,2010,Elevated,28.7446,77.1365
+31,Rohini Sector 18-19,1.61,Yellow,2010,Elevated,28.7380,77.1380
+32,Haiderpur Badli Mor,3.16,Yellow,2010,Elevated,28.7271,77.1538
+33,Jahangirpuri,4.75,Yellow,2010,Elevated,28.7259,77.1620
+34,Adarsh Nagar,6.06,Yellow,2009,Elevated,28.7169,77.1689
+35,Azadpur,7.55,Yellow,2009,Elevated,28.7074,77.1771
+36,Model Town,8.74,Yellow,2009,Elevated,28.7002,77.1903
+37,GTB Nagar,10.01,Yellow,2009,Elevated,28.6925,77.2013
+38,Vishwavidyalaya,11.63,Yellow,2004,Underground,28.6845,77.2098
+39,Vidhan Sabha,12.84,Yellow,2004,Underground,28.6768,77.2150
+40,Civil Lines,13.59,Yellow,2004,Underground,28.6744,77.2214
+41,Kashmere Gate,14.73,Yellow,2004,Underground,28.6671,77.2289
+42,Chandni Chowk,16.06,Yellow,2004,Underground,28.6564,77.2302
+43,Chawri Bazar,17.09,Yellow,2005,Underground,28.6501,77.2274
+44,New Delhi,18.33,Yellow,2005,Underground,28.6425,77.2215
+45,Rajiv Chowk,19.57,Yellow,2004,Underground,28.6330,77.2195
+46,Patel Chowk,20.54,Yellow,2005,Underground,28.6239,77.2153
+47,Central Secretariat,21.68,Yellow,2005,Underground,28.6149,77.2121
+48,Udyog Bhawan,22.79,Yellow,2005,Underground,28.6110,77.2098
+49,Race Course,23.52,Yellow,2005,Underground,28.6039,77.2047
+50,Jorbagh,24.33,Yellow,2005,Underground,28.5958,77.2037
+51,INA,25.72,Yellow,2005,Underground,28.5827,77.2090
+52,AIIMS,26.55,Yellow,2005,Underground,28.5710,77.2080
+53,Green Park,27.51,Yellow,2006,Underground,28.5624,77.2075
+54,Hauz Khas,29.06,Yellow,2006,Underground,28.5433,77.2067
+55,Malviya Nagar,30.41,Yellow,2006,Underground,28.5279,77.2080
+56,Saket,31.52,Yellow,2006,Underground,28.5188,77.2078
+57,Qutab Minar,33.01,Yellow,2006,Underground,28.5062,77.2055
+58,Chattarpur,34.37,Yellow,2010,Elevated,28.4973,77.1824
+59,Sultanpur,35.72,Yellow,2010,Elevated,28.4930,77.1632
+60,Ghitorni,37.47,Yellow,2010,Elevated,28.4832,77.1453
+61,Arjan Garh,38.99,Yellow,2010,Elevated,28.4767,77.1270
+62,Guru Dronacharya,40.78,Yellow,2010,Elevated,28.4791,77.1004
+63,Sikandarpur,42.24,Yellow,2010,Elevated,28.4750,77.0917
+64,MG Road,43.34,Yellow,2010,Elevated,28.4687,77.0803
+65,IFFCO Chowk,44.56,Yellow,2010,Elevated,28.4601,77.0722
+66,Huda City Centre,45.95,Yellow,2010,Elevated,28.4590,77.0524
+67,Dwarka Sector 21,0,Blue,2005,Elevated,28.5535,77.0588
+68,Dwarka Sector 8,1.58,Blue,2005,Elevated,28.5632,77.0656
+69,Dwarka Sector 9,2.72,Blue,2005,Elevated,28.5706,77.0706
+70,Dwarka Sector 10,3.89,Blue,2005,Elevated,28.5795,77.0710
+71,Dwarka Sector 11,4.77,Blue,2005,Elevated,28.5847,77.0697
+72,Dwarka Sector 12,5.62,Blue,2005,Elevated,28.5891,77.0738
+73,Dwarka Sector 13,6.31,Blue,2005,Elevated,28.5929,77.0756
+74,Dwarka Sector 14,7.21,Blue,2005,Elevated,28.5961,77.0815
+75,Dwarka,8.57,Blue,2005,Elevated,28.5970,77.0844
+76,Dwarka Mor,9.86,Blue,2005,Elevated,28.6025,77.0498
+77,Nawada,10.87,Blue,2005,Elevated,28.6098,77.0480
+78,Uttam Nagar West,11.94,Blue,2005,Elevated,28.6157,77.0455
+79,Uttam Nagar East,12.97,Blue,2005,Elevated,28.6220,77.0437
+80,Janakpuri West,14.12,Blue,2005,Elevated,28.6283,77.0483
+81,Janakpuri East,15.23,Blue,2006,Elevated,28.6318,77.0572
+82,Tilak Nagar,16.54,Blue,2006,Elevated,28.6378,77.0654
+83,Subhash Nagar,17.76,Blue,2006,Elevated,28.6402,77.0691
+84,Tagore Garden,18.54,Blue,2006,Elevated,28.6415,77.0714
+85,Rajouri Garden,19.97,Blue,2006,Elevated,28.6424,77.0795
+86,Ramesh Nagar,20.72,Blue,2006,Elevated,28.6437,77.0843
+87,Moti Nagar,21.71,Blue,2006,Elevated,28.6457,77.0899
+88,Kirti Nagar,22.44,Blue,2006,Elevated,28.6486,77.1003
+89,Shadipur,23.77,Blue,2006,Elevated,28.6530,77.1519
+90,Patel Nagar,24.86,Blue,2006,Underground,28.6510,77.1560
+91,Rajendra Place,25.98,Blue,2006,Underground,28.6420,77.1774
+92,Karol Bagh,26.92,Blue,2004,Underground,28.6434,77.1913
+93,Jhandewalan,27.55,Blue,2004,Underground,28.6437,77.2026
+94,Ramakrishna Ashram Marg,28.66,Blue,2005,Underground,28.6377,77.2086
+95,Rajiv Chowk,29.53,Blue,2005,Underground,28.6330,77.2195
+96,Barakhamba Road,30.57,Blue,2005,Underground,28.6320,77.2296
+97,Mandi House,31.73,Blue,2005,Underground,28.6254,77.2345
+98,Pragati Maidan,32.52,Blue,2009,Underground,28.6224,77.2448
+99,Indraprastha,33.81,Blue,2009,Underground,28.6187,77.2442
+100,Yamuna Bank,35.23,Blue,2009,Elevated,28.6145,77.2621
+101,Akshardham,36.62,Blue,2009,Elevated,28.6103,77.2769
+102,Mayur Vihar Phase-1,37.98,Blue,2009,Elevated,28.6016,77.2936
+103,Mayur Vihar Extension,39.16,Blue,2010,Elevated,28.5893,77.3037
+104,New Ashok Nagar,40.41,Blue,2010,Elevated,28.5843,77.3108
+105,Noida Sector 15,42.12,Blue,2009,Elevated,28.5818,77.3177
+106,Noida Sector 16,43.1,Blue,2009,Elevated,28.5741,77.3237
+107,Noida Sector 18,44.24,Blue,2009,Elevated,28.5706,77.3288
+108,Botanical Garden,45.65,Blue,2009,Elevated,28.5644,77.3364
+109,Golf Course,47.11,Blue,2009,Elevated,28.5533,77.3397
+110,Noida City Centre,48.36,Blue,2009,Elevated,28.5389,77.3407
+111,Noida Sector 34,49.6,Blue,2013,Elevated,28.5343,77.3409
+112,Noida Sector 52,51.1,Blue,2013,Elevated,28.5337,77.3410
+113,Noida Sector 61,52.31,Blue,2013,Elevated,28.5413,77.3604
+114,Noida Sector 59,53.43,Blue,2013,Elevated,28.5547,77.3633
+115,Noida Sector 62,54.81,Blue,2013,Elevated,28.5710,77.3605
+116,Noida Electronic City,55.97,Blue,2013,Elevated,28.5898,77.3533
+117,Central Secretariat,0,Violet,2006,Underground,28.6149,77.2121
+118,Khan Market,1.2,Violet,2006,Underground,28.6083,77.2284
+119,Jawaharlal Nehru Stadium,2.28,Violet,2006,Underground,28.5983,77.2342
+120,Jangpura,3.5,Violet,2006,Underground,28.5899,77.2404
+121,Lajpat Nagar,5.13,Violet,2006,Underground,28.5751,77.2433
+122,Moolchand,6.2,Violet,2006,Underground,28.5687,77.2477
+123,Kailash Colony,7.21,Violet,2006,Underground,28.5575,77.2480
+124,Nehru Place,8.31,Violet,2010,Underground,28.5478,77.2481
+125,Greater Kailash,9.19,Violet,2010,Underground,28.5397,77.2374
+126,Govind Puri,10.44,Violet,2010,Underground,28.5300,77.2478
+127,Harkesh Nagar Okhla,11.54,Violet,2010,Elevated,28.5242,77.2596
+128,Jasola Apollo,12.81,Violet,2010,Elevated,28.5213,77.2826
+129,Sarita Vihar,14,Violet,2010,Elevated,28.5295,77.2918
+130,Mohan Estate,15.21,Violet,2010,Elevated,28.5296,77.3049
+131,Tughlakabad,16.23,Violet,2015,Elevated,28.5251,77.3103
+132,Badarpur Border,17.62,Violet,2015,Elevated,28.5106,77.3064
+133,NHPC Chowk,19.1,Violet,2015,Elevated,28.4948,77.3028
+134,Mewala Maharajpur,20.65,Violet,2015,Elevated,28.4863,77.3093
+135,Sector 28,22.12,Violet,2015,Elevated,28.4733,77.3130
+136,Badkhal Mor,23.41,Violet,2015,Elevated,28.4602,77.3037
+137,Old Faridabad,25.24,Violet,2015,Elevated,28.4395,77.3115
+138,Neelam Chowk Ajronda,26.35,Violet,2015,Elevated,28.4320,77.3163
+139,Bata Chowk,27.4,Violet,2015,Elevated,28.4181,77.3149
+140,Escorts Mujesar,28.8,Violet,2015,Elevated,28.4096,77.3103
+141,Raja Nahar Singh,30.1,Violet,2015,Elevated,28.3889,77.3149
+142,New Delhi,0,Orange,2011,Underground,28.6425,77.2215
+143,Shivaji Stadium,1.37,Orange,2011,Underground,28.6330,77.2130
+144,Dhaula Kuan,5.41,Orange,2011,Underground,28.5964,77.1617
+145,Delhi Aerocity,8.7,Orange,2011,Elevated,28.5554,77.1032
+146,Airport T3,10.21,Orange,2011,Underground,28.5540,77.0881
+147,Airport T1,12.14,Orange,2011,Underground,28.5693,77.0700
+148,Dwarka Sector 21,14.87,Orange,2011,Elevated,28.5535,77.0588
+149,Kirti Nagar,0,Green,2010,Elevated,28.6486,77.1003
+150,Satguru Ramsingh Marg,1.12,Green,2010,Elevated,28.6486,77.0860
+151,Ashok Park Main,2.3,Green,2010,Elevated,28.6501,77.0784
+152,Punjabi Bagh,3.38,Green,2010,Elevated,28.6536,77.0672
+153,Shivaji Park,4.59,Green,2010,Elevated,28.6563,77.0440
+154,Madipur,5.71,Green,2010,Elevated,28.6590,77.0372
+155,Paschim Vihar East,6.7,Green,2010,Elevated,28.6634,77.0332
+156,Paschim Vihar West,7.82,Green,2010,Elevated,28.6672,77.0265
+157,Peera Garhi,8.96,Green,2010,Elevated,28.6749,77.0142
+158,Udyog Nagar,9.65,Green,2010,Elevated,28.6813,77.0027
+159,Surajmal Stadium,10.14,Green,2010,Elevated,28.6866,76.9933
+160,Nangloi,11.48,Green,2010,Elevated,28.6855,76.9835
+161,Nangloi Railway Station,12.38,Green,2010,Elevated,28.6798,76.9740
+162,Rajdhani Park,13.64,Green,2010,Elevated,28.6865,76.9585
+163,Mundka,14.75,Green,2010,Elevated,28.6823,76.9400
+164,Ghevra,16.94,Green,2019,Elevated,28.6934,76.9214
+165,Tikri Kalan,18.42,Green,2019,Elevated,28.7020,76.9095
+166,Tikri Border,19.93,Green,2019,Elevated,28.7126,76.8989
+167,Pandit Shree Ram Sharma,21.38,Green,2019,Elevated,28.7148,76.8815
+168,Bahadurgarh City,22.85,Green,2019,Elevated,28.7029,76.8647
+169,Brigadier Hoshiyar Singh,24.3,Green,2019,Elevated,28.6964,76.8487
+170,Janakpuri West,0,Magenta,2018,Underground,28.6283,77.0483
+171,Dabri Mor,1.62,Magenta,2018,Elevated,28.6168,77.0443
+172,Dashrathpuri,2.71,Magenta,2018,Elevated,28.6088,77.0436
+173,Palam,4.23,Magenta,2018,Elevated,28.5940,77.0458
+174,Sadar Bazar Cantonment,5.57,Magenta,2018,Elevated,28.5850,77.0517
+175,Terminal 1 IGI Airport,7.12,Magenta,2018,Elevated,28.5719,77.0624
+176,Shankar Vihar,8.68,Magenta,2018,Elevated,28.5593,77.0713
+177,Vasant Vihar,9.83,Magenta,2018,Underground,28.5565,77.1576
+178,Munirka,10.51,Magenta,2018,Underground,28.5563,77.1726
+179,RK Puram,11.48,Magenta,2018,Underground,28.5536,77.1823
+180,IIT Delhi,12.36,Magenta,2018,Underground,28.5471,77.1901
+181,Hauz Khas,13.41,Magenta,2018,Underground,28.5433,77.2067
+182,Panchsheel Park,14.39,Magenta,2018,Underground,28.5376,77.2119
+183,Chirag Delhi,15.31,Magenta,2018,Underground,28.5302,77.2117
+184,Greater Kailash,16.43,Magenta,2018,Underground,28.5397,77.2374
+185,Nehru Enclave,17.12,Magenta,2018,Underground,28.5484,77.2372
+186,Kalkaji Mandir,18.24,Magenta,2018,Underground,28.5478,77.2551
+187,Okhla NSIC,19.35,Magenta,2018,Underground,28.5363,77.2649
+188,Sukhdev Vihar,20.41,Magenta,2018,Underground,28.5271,77.2659
+189,Jamia Millia Islamia,21.52,Magenta,2018,Underground,28.5310,77.2778
+190,Okhla Vihar,22.63,Magenta,2018,Elevated,28.5310,77.2940
+191,Jasola Vihar Shaheen Bagh,23.71,Magenta,2018,Elevated,28.5290,77.3052
+192,Kalindi Kunj,24.82,Magenta,2018,Elevated,28.5284,77.3132
+193,Okhla Bird Sanctuary,25.91,Magenta,2018,Elevated,28.5194,77.3134
+194,Botanical Garden,27.04,Magenta,2018,Elevated,28.5644,77.3364
+195,Majlis Park,0,Pink,2018,Elevated,28.7083,77.1907
+196,Azadpur,1.48,Pink,2018,Elevated,28.7074,77.1771
+197,Shalimar Bagh,3.11,Pink,2018,Elevated,28.7170,77.1604
+198,Netaji Subhash Place,4.62,Pink,2018,Elevated,28.6684,77.1488
+199,Shakurpur,5.73,Pink,2018,Elevated,28.6799,77.1432
+200,Punjabi Bagh West,7.12,Pink,2018,Elevated,28.6633,77.1291
+201,ESI Hospital,8.51,Pink,2018,Elevated,28.6382,77.1054
+202,Rajouri Garden,9.62,Pink,2018,Elevated,28.6424,77.0795
+203,Maya Puri,10.73,Pink,2018,Elevated,28.6351,77.0961
+204,Naraina Vihar,11.84,Pink,2018,Elevated,28.6371,77.1087
+205,Delhi Cantt,13.21,Pink,2018,Elevated,28.6133,77.1278
+206,Durgabai Deshmukh South Campus,14.32,Pink,2018,Underground,28.5993,77.1721
+207,Sir Vishweshwaraiah Moti Bagh,15.43,Pink,2018,Underground,28.5848,77.1714
+208,Bhikaji Cama Place,16.54,Pink,2018,Underground,28.5722,77.1861
+209,Sarojini Nagar,17.65,Pink,2018,Underground,28.5793,77.2017
+210,INA,18.73,Pink,2018,Underground,28.5827,77.2090
+211,South Extension,19.84,Pink,2018,Underground,28.5756,77.2220
+212,Lajpat Nagar,20.95,Pink,2018,Underground,28.5751,77.2433
+213,Vinobapuri,22.06,Pink,2018,Underground,28.5666,77.2559
+214,Ashram,23.17,Pink,2018,Underground,28.5685,77.2637
+215,Hazrat Nizamuddin,24.28,Pink,2018,Underground,28.5834,77.2554
+216,Mayur Vihar Phase-1,26.15,Pink,2018,Elevated,28.6016,77.2936
+217,Mayur Vihar Pocket 1,27.26,Pink,2018,Elevated,28.5941,77.3029
+218,Trilokpuri Sanjay Lake,28.37,Pink,2018,Elevated,28.5919,77.3102
+219,Vinod Nagar East,29.48,Pink,2018,Elevated,28.6016,77.3127
+220,Mandawali West Vinod Nagar,30.23,Pink,2018,Elevated,28.6120,77.3089
+221,IP Extension,31.34,Pink,2018,Elevated,28.6196,77.3023
+222,Anand Vihar,32.45,Pink,2018,Elevated,28.6456,77.3156
+223,Karkarduma,33.56,Pink,2018,Elevated,28.6516,77.3035
+224,Karkarduma Court,34.67,Pink,2018,Elevated,28.6534,77.2946
+225,Krishna Nagar,35.78,Pink,2018,Elevated,28.6570,77.2739
+226,East Azad Nagar,36.42,Pink,2018,Elevated,28.6582,77.2634
+227,Welcome,37.53,Pink,2018,Elevated,28.6753,77.2647
+228,Jaffrabad,38.64,Pink,2018,Elevated,28.6822,77.2608
+229,Maujpur Babarpur,39.75,Pink,2018,Elevated,28.6887,77.2549
+230,Gokulpuri,40.86,Pink,2018,Elevated,28.6984,77.2647
+231,Johri Enclave,41.97,Pink,2018,Elevated,28.7029,77.2684
+232,Shiv Vihar,43.08,Pink,2018,Elevated,28.7099,77.2724
+233,Dwarka Sector 21,0,Grey,2019,Elevated,28.5535,77.0588
+234,Dhansa Bus Stand,5.2,Grey,2019,Elevated,28.5296,77.0107
+235,Najafgarh,3.81,Grey,2019,Elevated,28.5349,77.0265

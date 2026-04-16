@@ -1,0 +1,236 @@
+Line,Stop_Order,Station Name
+Red,1,Shaheed Sthal (New Bus Adda)
+Red,2,Hindon River
+Red,3,Arthala
+Red,4,Mohan Nagar
+Red,5,Shyam Park
+Red,6,Major Mohit Sharma Rajendra Nagar
+Red,7,Raj Bagh
+Red,8,Shaheed Nagar
+Red,9,Dilshad Garden
+Red,10,Jhilmil
+Red,11,Mansarovar Park
+Red,12,Shahdara
+Red,13,Welcome
+Red,14,Seelampur
+Red,15,Shastri Park
+Red,16,Kashmere Gate
+Red,17,Tis Hazari
+Red,18,Pulbangash
+Red,19,Pratap Nagar
+Red,20,Shastri Nagar
+Red,21,Inderlok
+Red,22,Kanhaiya Nagar
+Red,23,Keshav Puram
+Red,24,Netaji Subhash Place
+Red,25,Kohat Enclave
+Red,26,Pitampura
+Red,27,Rohini East
+Red,28,Rohini West
+Red,29,Rithala
+Yellow,1,Samaypur Badli
+Yellow,2,Rohini Sector 18-19
+Yellow,3,Haiderpur Badli Mor
+Yellow,4,Jahangirpuri
+Yellow,5,Adarsh Nagar
+Yellow,6,Azadpur
+Yellow,7,Model Town
+Yellow,8,GTB Nagar
+Yellow,9,Vishwavidyalaya
+Yellow,10,Vidhan Sabha
+Yellow,11,Civil Lines
+Yellow,12,Kashmere Gate
+Yellow,13,Chandni Chowk
+Yellow,14,Chawri Bazar
+Yellow,15,New Delhi
+Yellow,16,Rajiv Chowk
+Yellow,17,Patel Chowk
+Yellow,18,Central Secretariat
+Yellow,19,Udyog Bhawan
+Yellow,20,Race Course
+Yellow,21,Jorbagh
+Yellow,22,INA
+Yellow,23,AIIMS
+Yellow,24,Green Park
+Yellow,25,Hauz Khas
+Yellow,26,Malviya Nagar
+Yellow,27,Saket
+Yellow,28,Qutab Minar
+Yellow,29,Chattarpur
+Yellow,30,Sultanpur
+Yellow,31,Ghitorni
+Yellow,32,Arjan Garh
+Yellow,33,Guru Dronacharya
+Yellow,34,Sikandarpur
+Yellow,35,MG Road
+Yellow,36,IFFCO Chowk
+Yellow,37,Huda City Centre
+Blue,1,Dwarka Sector 21
+Blue,2,Dwarka Sector 8
+Blue,3,Dwarka Sector 9
+Blue,4,Dwarka Sector 10
+Blue,5,Dwarka Sector 11
+Blue,6,Dwarka Sector 12
+Blue,7,Dwarka Sector 13
+Blue,8,Dwarka Sector 14
+Blue,9,Dwarka
+Blue,10,Dwarka Mor
+Blue,11,Nawada
+Blue,12,Uttam Nagar West
+Blue,13,Uttam Nagar East
+Blue,14,Janakpuri West
+Blue,15,Janakpuri East
+Blue,16,Tilak Nagar
+Blue,17,Subhash Nagar
+Blue,18,Tagore Garden
+Blue,19,Rajouri Garden
+Blue,20,Ramesh Nagar
+Blue,21,Moti Nagar
+Blue,22,Kirti Nagar
+Blue,23,Shadipur
+Blue,24,Patel Nagar
+Blue,25,Rajendra Place
+Blue,26,Karol Bagh
+Blue,27,Jhandewalan
+Blue,28,Ramakrishna Ashram Marg
+Blue,29,Rajiv Chowk
+Blue,30,Barakhamba Road
+Blue,31,Mandi House
+Blue,32,Pragati Maidan
+Blue,33,Indraprastha
+Blue,34,Yamuna Bank
+Blue,35,Akshardham
+Blue,36,Mayur Vihar Phase-1
+Blue,37,Mayur Vihar Extension
+Blue,38,New Ashok Nagar
+Blue,39,Noida Sector 15
+Blue,40,Noida Sector 16
+Blue,41,Noida Sector 18
+Blue,42,Botanical Garden
+Blue,43,Golf Course
+Blue,44,Noida City Centre
+Blue,45,Noida Sector 34
+Blue,46,Noida Sector 52
+Blue,47,Noida Sector 61
+Blue,48,Noida Sector 59
+Blue,49,Noida Sector 62
+Blue,50,Noida Electronic City
+Violet,1,Central Secretariat
+Violet,2,Khan Market
+Violet,3,Jawaharlal Nehru Stadium
+Violet,4,Jangpura
+Violet,5,Lajpat Nagar
+Violet,6,Moolchand
+Violet,7,Kailash Colony
+Violet,8,Nehru Place
+Violet,9,Greater Kailash
+Violet,10,Govind Puri
+Violet,11,Harkesh Nagar Okhla
+Violet,12,Jasola Apollo
+Violet,13,Sarita Vihar
+Violet,14,Mohan Estate
+Violet,15,Tughlakabad
+Violet,16,Badarpur Border
+Violet,17,NHPC Chowk
+Violet,18,Mewala Maharajpur
+Violet,19,Sector 28
+Violet,20,Badkhal Mor
+Violet,21,Old Faridabad
+Violet,22,Neelam Chowk Ajronda
+Violet,23,Bata Chowk
+Violet,24,Escorts Mujesar
+Violet,25,Raja Nahar Singh
+Orange,1,New Delhi
+Orange,2,Shivaji Stadium
+Orange,3,Dhaula Kuan
+Orange,4,Delhi Aerocity
+Orange,5,Airport T3
+Orange,6,Airport T1
+Orange,7,Dwarka Sector 21
+Green,1,Kirti Nagar
+Green,2,Satguru Ramsingh Marg
+Green,3,Ashok Park Main
+Green,4,Punjabi Bagh
+Green,5,Shivaji Park
+Green,6,Madipur
+Green,7,Paschim Vihar East
+Green,8,Paschim Vihar West
+Green,9,Peera Garhi
+Green,10,Udyog Nagar
+Green,11,Surajmal Stadium
+Green,12,Nangloi
+Green,13,Nangloi Railway Station
+Green,14,Rajdhani Park
+Green,15,Mundka
+Green,16,Ghevra
+Green,17,Tikri Kalan
+Green,18,Tikri Border
+Green,19,Pandit Shree Ram Sharma
+Green,20,Bahadurgarh City
+Green,21,Brigadier Hoshiyar Singh
+Magenta,1,Janakpuri West
+Magenta,2,Dabri Mor
+Magenta,3,Dashrathpuri
+Magenta,4,Palam
+Magenta,5,Sadar Bazar Cantonment
+Magenta,6,Terminal 1 IGI Airport
+Magenta,7,Shankar Vihar
+Magenta,8,Vasant Vihar
+Magenta,9,Munirka
+Magenta,10,RK Puram
+Magenta,11,IIT Delhi
+Magenta,12,Hauz Khas
+Magenta,13,Panchsheel Park
+Magenta,14,Chirag Delhi
+Magenta,15,Greater Kailash
+Magenta,16,Nehru Enclave
+Magenta,17,Kalkaji Mandir
+Magenta,18,Okhla NSIC
+Magenta,19,Sukhdev Vihar
+Magenta,20,Jamia Millia Islamia
+Magenta,21,Okhla Vihar
+Magenta,22,Jasola Vihar Shaheen Bagh
+Magenta,23,Kalindi Kunj
+Magenta,24,Okhla Bird Sanctuary
+Magenta,25,Botanical Garden
+Pink,1,Majlis Park
+Pink,2,Azadpur
+Pink,3,Shalimar Bagh
+Pink,4,Netaji Subhash Place
+Pink,5,Shakurpur
+Pink,6,Punjabi Bagh West
+Pink,7,ESI Hospital
+Pink,8,Rajouri Garden
+Pink,9,Maya Puri
+Pink,10,Naraina Vihar
+Pink,11,Delhi Cantt
+Pink,12,Durgabai Deshmukh South Campus
+Pink,13,Sir Vishweshwaraiah Moti Bagh
+Pink,14,Bhikaji Cama Place
+Pink,15,Sarojini Nagar
+Pink,16,INA
+Pink,17,South Extension
+Pink,18,Lajpat Nagar
+Pink,19,Vinobapuri
+Pink,20,Ashram
+Pink,21,Hazrat Nizamuddin
+Pink,22,Mayur Vihar Phase-1
+Pink,23,Mayur Vihar Pocket 1
+Pink,24,Trilokpuri Sanjay Lake
+Pink,25,Vinod Nagar East
+Pink,26,Mandawali West Vinod Nagar
+Pink,27,IP Extension
+Pink,28,Anand Vihar
+Pink,29,Karkarduma
+Pink,30,Karkarduma Court
+Pink,31,Krishna Nagar
+Pink,32,East Azad Nagar
+Pink,33,Welcome
+Pink,34,Jaffrabad
+Pink,35,Maujpur Babarpur
+Pink,36,Gokulpuri
+Pink,37,Johri Enclave
+Pink,38,Shiv Vihar
+Grey,1,Dwarka Sector 21
+Grey,2,Najafgarh
+Grey,3,Dhansa Bus Stand
