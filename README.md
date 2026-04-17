@@ -59,7 +59,7 @@ Our work took inspiration from highly effective transit visualizations, drawing 
 
 **10% of the final grade**
 
-See file Milestone2_report.pdf
+**PDF : [Milestone 2](./Milestone2.pdf)**
 
 **Link to the website : [WebSite Prototype](https://uncharted-delhi.netlify.app/)**
 
