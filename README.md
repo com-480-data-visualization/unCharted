@@ -61,7 +61,7 @@ Our work took inspiration from highly effective transit visualizations, drawing 
 
 See file MileStone2_report.pdf
 
-**Link to the website : [WebSite Prototype](https://uncharted-delhi.netlify.app/) **
+**Link to the website : [WebSite Prototype](https://uncharted-delhi.netlify.app/)**
 
 ## Milestone 3 (29th May, 5pm)
 
