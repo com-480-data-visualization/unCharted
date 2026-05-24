@@ -190,6 +190,68 @@ function showModal(station) {
 
 function hideModal() { document.getElementById('station-modal').classList.add('hidden'); }
 
+/* ---- Slideshow Logic ---- */
+function initSlideshow() {
+  const steps = document.querySelectorAll('.step');
+  const prevBtn = document.getElementById('prev-btn');
+  const nextBtn = document.getElementById('next-btn');
+  const infoToggleBtn = document.getElementById('info-toggle-btn');
+  const panelsWrapper = document.getElementById('panels-wrapper');
+  const timeline = document.getElementById('timeline');
+  let currentStep = 0;
+  let fadeTimer;
+
+  function updateStep() {
+    steps.forEach((step, index) => {
+      step.classList.toggle('is-active', index === currentStep);
+    });
+
+    // Auto-hide buttons at bounds. (On the last step, Next disappears automatically)
+    prevBtn.disabled = currentStep === 0;
+    nextBtn.disabled = currentStep === steps.length - 1;
+
+    const activeStep = steps[currentStep];
+    const targetYear = +activeStep.getAttribute('data-year');
+    goToYear(targetYear, true);
+    document.getElementById('year-slider').value = targetYear;
+
+    if (activeStep.classList.contains('final-step')) {
+      timeline.classList.add('visible');
+    } else {
+      timeline.classList.remove('visible');
+    }
+
+    // Pull drawer out
+    panelsWrapper.classList.remove('hidden-drawer');
+    clearTimeout(fadeTimer);
+
+    // Push drawer back in after 5 seconds
+    fadeTimer = setTimeout(() => {
+      panelsWrapper.classList.add('hidden-drawer');
+    }, 5000);
+  }
+
+  // Toggle button logic
+  infoToggleBtn.addEventListener('click', () => {
+    if (panelsWrapper.classList.contains('hidden-drawer')) {
+      panelsWrapper.classList.remove('hidden-drawer');
+      clearTimeout(fadeTimer); 
+    } else {
+      panelsWrapper.classList.add('hidden-drawer');
+    }
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (currentStep > 0) { currentStep--; updateStep(); }
+  });
+
+  nextBtn.addEventListener('click', () => {
+    if (currentStep < steps.length - 1) { currentStep++; updateStep(); }
+  });
+
+  updateStep();
+}
+
 /* ---- Init ---- */
 
 (async function () {
@@ -201,6 +263,7 @@ function hideModal() { document.getElementById('station-modal').classList.add('h
     document.getElementById('modal-backdrop').addEventListener('click', hideModal);
     document.addEventListener('keydown', e => { if (e.key === 'Escape') hideModal(); });
     goToYear(2002, false);
+    initSlideshow();
     setTimeout(() => document.getElementById('loading-screen').classList.add('loaded'), 600);
   } catch (err) {
     console.error(err);
