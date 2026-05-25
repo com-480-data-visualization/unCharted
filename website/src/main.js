@@ -225,10 +225,10 @@ function initSlideshow() {
     panelsWrapper.classList.remove('hidden-drawer');
     clearTimeout(fadeTimer);
 
-    // Push drawer back in after 5 seconds
+    // Push drawer back in after 15 seconds
     fadeTimer = setTimeout(() => {
       panelsWrapper.classList.add('hidden-drawer');
-    }, 5000);
+    }, 15000);
   }
 
   // Toggle button logic
