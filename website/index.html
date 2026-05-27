@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>unCharted — Delhi Metro Growth</title>
+  <title>unCharted — Delhi Metro Growth Visualization</title>
+  <meta name="description" content="Interactive visualization of Delhi Metro network growth from 2002 to present. Explore station expansion, ridership data, and network evolution over time." />
+  <meta name="keywords" content="Delhi Metro, visualization, D3.js, transit, India, data visualization" />
+  <meta property="og:title" content="unCharted — Delhi Metro Growth Visualization" />
+  <meta property="og:description" content="Watch Delhi Metro grow from 2002 to today. Interactive map with timeline, ridership data, and station details." />
+  <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -11,6 +16,7 @@
   <link rel="stylesheet" href="/src/style.css" />
 </head>
 <body>
+  <!-- Loading Screen -->
   <div id="loading-screen">
     <div class="loader-content">
       <div class="loader-ring"></div>
@@ -19,92 +25,180 @@
     </div>
   </div>
 
+  <!-- Main App -->
   <div id="app">
+    <!-- Map Container -->
     <div id="map"></div>
 
+    <!-- Header -->
     <header id="header">
       <div class="header-left">
         <h1 class="logo">un<span>Charted</span></h1>
         <p class="tagline">Delhi Metro · Network Growth</p>
       </div>
       <div class="header-right">
-        <div class="stat-pill">🚉 <strong id="stat-stations">—</strong> Stations</div>
-        <div class="stat-pill">🛤️ <strong id="stat-lines">—</strong> Lines</div>
-        <div class="stat-pill">👥 <strong>—</strong> Daily Riders</div>
-        <div class="stat-pill">📏 <strong>—</strong> Network km</div>
+        <div class="stat-pill" id="stat-stations">
+          <span class="stat-icon">🚉</span>
+          <span class="stat-value" id="station-count">0</span>
+          <span class="stat-label">Stations</span>
+        </div>
+        <div class="stat-pill" id="stat-lines">
+          <span class="stat-icon">🛤️</span>
+          <span class="stat-value" id="line-count">0</span>
+          <span class="stat-label">Lines</span>
+        </div>
+        <div class="stat-pill" id="stat-ridership">
+          <span class="stat-icon">👥</span>
+          <span class="stat-value" id="ridership-value">0</span>
+          <span class="stat-label">Daily Riders</span>
+        </div>
+        <div class="stat-pill" id="stat-network">
+          <span class="stat-icon">📏</span>
+          <span class="stat-value" id="network-km">0</span>
+          <span class="stat-label">Network</span>
+        </div>
       </div>
     </header>
 
+    <!-- Legend -->
     <div id="legend">
       <h3>Metro Lines</h3>
       <div id="legend-items"></div>
     </div>
 
-    <div id="year-display"><span id="current-year">2002</span></div>
+    <!-- Year Display -->
+    <div id="year-display">
+      <span id="current-year">2002</span>
+    </div>
 
+    <!-- Timeline -->
     <div id="timeline">
+      <button id="toggle-ridership" class="control-btn traffic-toggle" title="Toggle traffic visualization">
+        <span>🚦</span> Show Traffic
+      </button>
       <button id="play-btn" class="control-btn" title="Play/Pause">
-        <svg id="play-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
-        <svg id="pause-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" style="display:none"><rect x="5" y="3" width="4" height="18"/><rect x="15" y="3" width="4" height="18"/></svg>
+        <svg id="play-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <polygon points="5,3 19,12 5,21" />
+        </svg>
+        <svg id="pause-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" style="display:none">
+          <rect x="5" y="3" width="4" height="18" />
+          <rect x="15" y="3" width="4" height="18" />
+        </svg>
       </button>
       <div class="timeline-track">
         <input type="range" id="year-slider" min="2002" max="2025" value="2002" step="1" />
-        <div id="timeline-progress"></div>
-        <div class="timeline-labels"><span>2002</span><span>2006</span><span>2010</span><span>2014</span><span>2018</span><span>2022</span><span>2025</span></div>
+        <div class="timeline-progress" id="timeline-progress"></div>
+        <div class="timeline-labels">
+          <span>2002</span>
+          <span>2006</span>
+          <span>2010</span>
+          <span>2014</span>
+          <span>2018</span>
+          <span>2022</span>
+          <span>2025</span>
+        </div>
+      </div>
+      <div class="speed-control">
+        <label for="speed-select">Speed</label>
+        <select id="speed-select">
+          <option value="2000">0.5×</option>
+          <option value="1000" selected>1×</option>
+          <option value="500">2×</option>
+          <option value="250">4×</option>
+        </select>
       </div>
     </div>
 
-    <div id="station-modal" class="hidden">
-      <div id="modal-backdrop"></div>
+    <!-- Station Modal -->
+    <div id="station-modal" class="modal-hidden">
+      <div class="modal-backdrop" id="modal-backdrop"></div>
       <div class="modal-panel">
-        <button id="modal-close" class="modal-close">×</button>
+        <button class="modal-close" id="modal-close">×</button>
+        <div class="modal-image-container" id="modal-image-container">
+          <div class="modal-image-placeholder">
+            <span>📷</span>
+            <p>Loading image...</p>
+          </div>
+        </div>
         <div class="modal-content">
-          <div id="modal-badges" class="modal-badges"></div>
-          <h2 id="modal-name"></h2>
-          <p id="modal-info" class="modal-info"></p>
+          <div class="modal-line-badges" id="modal-line-badges"></div>
+          <h2 class="modal-station-name" id="modal-station-name"></h2>
+          <p class="modal-description" id="modal-description"></p>
+          <div class="modal-stats-grid" id="modal-stats-grid"></div>
+          <div id="modal-chart-container" class="modal-chart-container"></div>
+          <div class="modal-wiki-link" id="modal-wiki-link"></div>
+          <p class="modal-attribution" id="modal-attribution">Image: Wikimedia Commons (CC BY-SA)</p>
         </div>
       </div>
     </div>
-  </div>
-  <button id="prev-btn" class="global-nav-btn top-nav">↑ Previous Period</button>
-  <button id="next-btn" class="global-nav-btn bottom-nav">Next Period ↓</button>
 
-  <div id="sidebar">
-    <button id="info-toggle-btn" class="drawer-toggle-btn" title="Toggle Info">📖</button>
-    
-    <div id="panels-wrapper">
-      <section class="step" data-year="2002">
-        <h2>The Delhi Metro</h2>
-        <p>The Delhi Metro is one of the fastest-growing transit networks in the world, expanding from zero to nearly 300 stations in just two decades. Let's travel through its history together!</p>
-      </section>
+    <!-- Ridership Info Panel -->
+    <div id="ridership-panel" class="glass-panel hidden">
+      <h4>Network Traffic · <span id="panel-year"></span></h4>
+      <div class="panel-stats">
+        <div class="panel-stat">
+          <span class="panel-stat-value" id="panel-daily">—</span>
+          <span class="panel-stat-label">Daily Riders</span>
+        </div>
+        <div class="panel-stat">
+          <span class="panel-stat-value" id="panel-yoy">—</span>
+          <span class="panel-stat-label">vs Last Year</span>
+        </div>
+        <div class="panel-stat">
+          <span class="panel-stat-value" id="panel-network-km">—</span>
+          <span class="panel-stat-label">Network</span>
+        </div>
+      </div>
+    </div>
+    <button id="prev-btn" class="global-nav-btn top-nav">↑ Previous Period</button>
+    <div class="bottom-nav-row">
+      <button id="next-btn" class="global-nav-btn">Next Period ↓</button>
+      <button id="skip-btn" class="global-nav-btn">Skip Story ⏭️</button>
+    </div>
+
+    <div id="sidebar">
+      <button id="info-toggle-btn" class="drawer-toggle-btn" title="Toggle Info">📖</button>
       
-      <section class="step" data-year="2006">
-        <h2>Phase I: The Foundation</h2>
-        <p>This phase was about proving the concept and connecting the absolute core of the city. The opening of the first section of the Red Line in 2002 was quickly followed by the Yellow and Blue lines.</p>
-      </section>
-      
-      <section class="step" data-year="2011">
-        <h2>Phase II: Commonwealth Games</h2>
-        <p>Driven by the looming deadline of the 2010 Commonwealth Games, the metro underwent a massive, rapid expansion to connect the NCR suburbs like Noida and Gurgaon to the city center.</p>
-      </section>
-      
-      <section class="step" data-year="2019">
-        <h2>Phase III: The Great Rings</h2>
-        <p>With the spokes built, the network desperately needed to connect them. The massive circular Pink and Magenta lines were constructed, intersecting older lines and drastically increasing the number of interchange stations.</p>
-      </section>
-      
-      <section class="step" data-year="2025">
-        <h2>Phase IV & Modern Era</h2>
-        <p>Navigating global challenges and optimizing the vast network. After a massive drop during COVID-19, the network is completing its newer, smaller line extensions.</p>
-      </section>
-      
-      <section class="step final-step" data-year="2025">
-        <h2>Now it's your turn.</h2>
-        <p>The history is written, but the exploration is yours. Use the timeline below to explore the network's evolution year by year, or click on any station dot to see its unique history.</p>
-      </section>
+      <div id="panels-wrapper">
+        
+        <section class="step" data-year="2002">
+          <h2>The Birth of a Lifeline</h2>
+          <p>Before 2002, Delhi's public transport relied entirely on heavily congested and polluted roads. After years of meticulous planning under E. Sreedharan (the "Metro Man"), the very first 7.5 km stretch of the <strong>Red Line</strong> opened on Christmas Day, 2002. This single elevated stretch marked the dawn of a modern transit era for the capital. Let's travel through its history together!</p>
+        </section>
+        
+        <section class="step" data-year="2006">
+          <h2>Phase I: The Foundation</h2>
+          <p>Phase I was about proving the concept and establishing a reliable core network. The <strong>Yellow Line</strong> opened in 2004, introducing underground tunnels to navigate the dense, historic corridors of Old Delhi (like Chawri Bazar). A year later, the <strong>Blue Line</strong> brought connectivity to key residential areas. By 2006, the Metro had laid down 95 km of track, fundamentally changing how millions navigated the city center.</p>
+        </section>
+        
+        <section class="step" data-year="2011">
+          <h2>Phase II: The Suburban Leap</h2>
+          <p>Driven by the looming deadline of the 2010 Commonwealth Games, the DMRC executed a breathtaking expansion. This phase integrated the National Capital Region (NCR), extending lines into the satellite cities of <strong>Noida</strong> and <strong>Gurgaon</strong>. It also introduced the <strong>Green</strong> and <strong>Violet</strong> lines, alongside the high-speed <strong>Airport Express (Orange)</strong>. In just 4.5 years, the network added 117.7 km of track, a world record pace!</p>
+        </section>
+        
+        <section class="step" data-year="2019">
+          <h2>Phase III: The Great Rings</h2>
+          <p>With the "spokes" of the network reaching far into the suburbs, commuters were forced to travel through the crowded center to switch lines. Phase III solved this by building massive circular routes: the <strong>Pink Line</strong> (a U-shaped ring) and the <strong>Magenta Line</strong>. These new corridors crisscrossed existing lines, adding 28 new interchange stations and introducing cutting-edge driverless train technology (UTO).</p>
+        </section>
+        
+        <section class="step" data-year="2025">
+          <h2>Phase IV & Modern Era</h2>
+          <p>After surviving the unprecedented shutdowns of the COVID-19 pandemic, the Metro bounced back with modernized ticketing and traffic rebounding to nearly 7 million daily journeys. The network introduced the short <strong>Grey Line</strong> to Najafgarh. Today, the focus is on Phase IV construction, expanding automated lines, and maintaining its status as one of the largest and most efficient metro systems on Earth.</p>
+        </section>
+        
+        <section class="step final-step" data-year="2025">
+          <h2>Your Turn to Explore</h2>
+          <p>From an 8-kilometer stretch in 2002 to a sprawling 350+ kilometer behemoth today, the Delhi Metro has reshaped the geography of India's capital region. Now, the map is yours.</p>
+          <ul style="margin-top: 10px; padding-left: 20px; font-size: 0.95em; color: var(--text-secondary); line-height: 1.6;">
+            <li>Use the <strong>timeline slider</strong> below to watch the network grow.</li>
+            <li>Click <strong>Show Traffic 🚦</strong> to visualize the daily ridership flow.</li>
+            <li><strong>Click any station dot</strong> to uncover its Wikipedia history and line profile.</li>
+          </ul>
+        </section>
+
+      </div>
     </div>
   </div>
-
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>
