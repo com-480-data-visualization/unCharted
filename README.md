@@ -12,6 +12,8 @@
 
 ## Milestone 1 (20th March)
 
+### Visit the website online! :) **([link](https://uncharted-delhi.netlify.app/))**
+
 ### Dataset
 
 For our project, we will use a combination of datasets describing the Delhi Metro Rail network:
@@ -60,8 +62,6 @@ Our work took inspiration from highly effective transit visualizations, drawing 
 **10% of the final grade**
 
 **PDF : [Milestone 2](./Milestone2.pdf)**
-
-**Link to the website : [WebSite Prototype](https://uncharted-delhi.netlify.app/)**
 
 ## Milestone 3 (29th May, 5pm)
 
