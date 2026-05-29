@@ -1,4 +1,4 @@
-import { loadAllData, getActiveLinesForYear, getRidershipForYear, getConnectionsForYear } from './data-loader.js';
+import { loadAllData, calculateNetworkLength, getActiveLinesForYear, getRidershipForYear, getConnectionsForYear } from './data-loader.js';
 import { initMap, renderStations, renderConnectionsWithData, renderRidership, clearAll, onMapMove, setDynamicMinZoom } from './map.js';
 import { initTimeline, getCurrentYear, setYear, stopPlay } from './timeline.js';
 import { initModal, showStationModal } from './station-modal.js';
@@ -94,8 +94,8 @@ function updateStats(year) {
     document.getElementById('ridership-value').textContent = daily;
   }
 
-  const km = rData ? rData.networkKm : 0;
-  document.getElementById('network-km').textContent = km > 0 ? `${km} km` : '0';
+  const calculatedKm = calculateNetworkLength(data.stations, year);
+  document.getElementById('network-km').textContent = calculatedKm > 0 ? `${calculatedKm.toFixed(1)} km` : '0';
 }
 
 function updateRidershipPanel(year) {

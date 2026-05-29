@@ -31,6 +31,7 @@ export async function loadAllData() {
     name: d['Station Name'].trim(),
     distance: +d.Distance,
     line: d.Line.trim(),
+    branch: d.Branch ? d.Branch.trim() : 'Main',
     opened: +d.Opened,
     layout: d.Layout.trim(),
     lat: +d.Latitude,
@@ -125,16 +126,20 @@ export function getActiveLinesForYear(stations, year) {
 export function getConnectionsForYear(stations, year) {
   const visibleStations = stations.filter(s => s.opened <= year);
   const connections = [];
-  const byLine = d3.group(visibleStations, d => d.line);
+  
+  const byLineAndBranch = d3.group(visibleStations, d => `${d.line}-${d.branch}`);
 
-  for (const [line, lineStations] of byLine) {    lineStations.sort((a, b) => a.distance - b.distance);
+  for (const [key, lineStations] of byLineAndBranch) {
+    lineStations.sort((a, b) => a.distance - b.distance);
+    
+    const realLineName = key.split('-')[0];
     
     for (let i = 0; i < lineStations.length - 1; i++) {
       const from = lineStations[i];
       const to = lineStations[i + 1];
       
       connections.push({
-        line: line,
+        line: realLineName, 
         color: from.color,
         from: { name: from.name, lat: from.lat, lng: from.lng },
         to: { name: to.name, lat: to.lat, lng: to.lng },
@@ -143,4 +148,21 @@ export function getConnectionsForYear(stations, year) {
     }
   }
   return connections;
+}
+
+export function calculateNetworkLength(stations, year) {
+  const visibleStations = stations.filter(s => s.opened <= year);
+  
+  const byLineAndBranch = d3.group(visibleStations, d => `${d.line}-${d.branch}`);
+  
+  let totalKm = 0;
+  
+  for (const [key, lineStations] of byLineAndBranch) {
+    if (lineStations.length > 0) {
+      const maxDist = Math.max(...lineStations.map(s => s.distance));
+      totalKm += maxDist;
+    }
+  }
+  
+  return totalKm;
 }

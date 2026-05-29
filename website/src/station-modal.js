@@ -60,11 +60,12 @@ export function initModal() {
 export async function showStationModal(station, currentYear, allStations, ridershipData) {
   const m = modal();
 
+  // On garde les badges simples (sans le nom de la branche) pour l'en-tête
   const linesServed = [];
-  const seen = new Set();
+  const seenLines = new Set();
   for (const s of allStations) {
-    if (s.name === station.name && !seen.has(s.line)) {
-      seen.add(s.line);
+    if (s.name === station.name && !seenLines.has(s.line)) {
+      seenLines.add(s.line);
       linesServed.push({ name: s.line, color: s.color });
     }
   }
@@ -132,22 +133,46 @@ export async function showStationModal(station, currentYear, allStations, riders
     </div>
   `;
 
-const chartContainer = d3.select('#modal-chart-container');
-chartContainer.selectAll('*').remove();
+  const chartContainer = d3.select('#modal-chart-container');
+  chartContainer.selectAll('*').remove();
 
-linesServed.forEach(lineObj => {
+  // --- NOUVELLE LOGIQUE POUR GÉRER LES BRANCHES ---
+  const branchesServed = [];
+  const seenBranches = new Set();
+  
+  for (const s of allStations) {
+    if (s.name === station.name) {
+      const key = `${s.line}-${s.branch}`;
+      if (!seenBranches.has(key)) {
+        seenBranches.add(key);
+        branchesServed.push({ 
+          lineName: s.line, 
+          branchName: s.branch, 
+          color: s.color 
+        });
+      }
+    }
+  }
+
+  branchesServed.forEach(branchObj => {
     const lineStations = allStations
-      .filter(s => s.line === lineObj.name && s.opened <= currentYear)
+      .filter(s => s.line === branchObj.lineName && s.branch === branchObj.branchName && s.opened <= currentYear)
       .sort((a, b) => a.distance - b.distance);
 
     if (lineStations.length > 0) {
       const startOffset = lineStations[0].distance; 
       const maxDist = lineStations[lineStations.length - 1].distance - startOffset || 1;
 
+      let titleText = `Distance Profile - ${branchObj.lineName} Line`;
+      if (branchObj.branchName && branchObj.branchName !== 'Main') {
+         const cleanName = branchObj.branchName.replace(/_/g, ' '); 
+         titleText += ` (${cleanName})`;
+      }
+
       chartContainer.append('h4')
-        .text(`Line Distance Profile - ${lineObj.name} Line`)
+        .text(titleText)
         .attr('class', 'modal-chart-title')
-        .style('color', lineObj.color);
+        .style('color', branchObj.color);
 
       const width = 330;
       const height = 65;
@@ -189,16 +214,21 @@ linesServed.forEach(lineObj => {
            return Math.max(3, height - margin.bottom - y(relativeDist));
         })
         .attr('rx', 2)
-        .attr('fill', d => d.name === station.name ? lineObj.color : 'rgba(255, 255, 255, 0.1)')
+        .attr('fill', d => d.name === station.name ? branchObj.color : 'rgba(255, 255, 255, 0.1)')
         .style('cursor', 'crosshair')
         .style('transition', 'fill 0.3s ease')
         .on('mouseover', function(event, d) { 
-          d3.select(this).attr('fill', lineObj.color); 
+          d3.select(this).attr('fill', branchObj.color); 
           
           const relativeDist = d.distance - startOffset;
           const toEnd = (maxDist - relativeDist).toFixed(2);
           
-          tooltip.html(`<strong>${d.name} (${lineObj.name})</strong><br/>📍 ${relativeDist.toFixed(2)} km from start<br/>🏁 ${toEnd} km to end`)
+          let tooltipLine = branchObj.lineName;
+          if (branchObj.branchName && branchObj.branchName !== 'Main') {
+            tooltipLine += ` (${branchObj.branchName.replace(/_/g, ' ')})`;
+          }
+          
+          tooltip.html(`<strong>${d.name} - ${tooltipLine}</strong><br/>📍 ${relativeDist.toFixed(2)} km from start<br/>🏁 ${toEnd} km to end`)
                  .classed('visible', true);
         })
         .on('mousemove', function(event) {

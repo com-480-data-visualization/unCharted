@@ -1,248 +1,258 @@
-ID,Station Name,Distance,Line,Opened,Layout,Latitude,Longitude,WikiLink
-12,Shahdara,15.03,Red,2002,Elevated,28.6731,77.2879,https://en.wikipedia.org/wiki/Shahdara_metro_station
-13,Welcome,16.52,Red,2002,Elevated,28.6753,77.2779,https://en.wikipedia.org/wiki/Welcome_metro_station
-14,Seelampur,17.72,Red,2002,Elevated,28.6698,77.2667,https://en.wikipedia.org/wiki/Seelampur_metro_station
-15,Shastri Park,19.23,Red,2002,Elevated,28.6692,77.2492,https://en.wikipedia.org/wiki/Shastri_Park_metro_station
-16,Kashmere Gate,21.13,Red,2002,Underground,28.6675,77.228,https://en.wikipedia.org/wiki/Kashmere_Gate_metro_station
-17,Tis Hazari,22.55,Red,2002,Underground,28.6619,77.2187,https://en.wikipedia.org/wiki/Tis_Hazari_metro_station
-18,Pulbangash,23.61,Red,2003,Underground,28.6663,77.2096,https://en.wikipedia.org/wiki/Pulbangash_metro_station
-19,Pratap Nagar,24.68,Red,2003,Underground,28.6667,77.201,https://en.wikipedia.org/wiki/Pratap_Nagar_metro_station
-20,Shastri Nagar,25.33,Red,2003,Underground,28.6703,77.1818,https://en.wikipedia.org/wiki/Shastri_Nagar_metro_station
-21,Inderlok,26.49,Red,2003,Elevated,28.6734,77.1703,https://en.wikipedia.org/wiki/Inderlok_metro_station
-22,Kanhaiya Nagar,27.69,Red,2004,Elevated,28.6589,77.1636,https://en.wikipedia.org/wiki/Kanhaiya_Nagar_metro_station
-23,Keshav Puram,28.85,Red,2004,Elevated,28.6637,77.1534,https://en.wikipedia.org/wiki/Keshav_Puram_metro_station
-24,Netaji Subhash Place,29.79,Red,2004,Elevated,28.6684,77.1488,https://en.wikipedia.org/wiki/Netaji_Subhash_Place_metro_station
-25,Kohat Enclave,30.92,Red,2004,Elevated,28.6717,77.1389,https://en.wikipedia.org/wiki/Kohat_Enclave_metro_station
-26,Pitampura,31.89,Red,2004,Elevated,28.6756,77.1307,https://en.wikipedia.org/wiki/Pitampura_metro_station
-27,Rohini East,33.54,Red,2004,Elevated,28.6832,77.1218,https://en.wikipedia.org/wiki/Rohini_East_metro_station
-28,Rohini West,34.95,Red,2004,Elevated,28.6894,77.1078,https://en.wikipedia.org/wiki/Rohini_West_metro_station
-29,Rithala,36.24,Red,2004,Elevated,28.6928,77.1004,https://en.wikipedia.org/wiki/Rithala_metro_station
-35,Azadpur,7.55,Yellow,2004,Elevated,28.7074,77.1771,https://en.wikipedia.org/wiki/Azadpur_metro_station
-38,Vishwavidyalaya,11.63,Yellow,2004,Underground,28.6845,77.2098,https://en.wikipedia.org/wiki/Vishwavidyalaya_metro_station_(Delhi)
-39,Vidhan Sabha,12.84,Yellow,2004,Underground,28.6768,77.215,https://en.wikipedia.org/wiki/Vidhan_Sabha_metro_station
-40,Civil Lines,13.59,Yellow,2004,Underground,28.6744,77.2214,https://en.wikipedia.org/wiki/Civil_Lines_metro_station_(Delhi)
-41,Kashmere Gate,14.73,Yellow,2004,Underground,28.6675,77.228,https://en.wikipedia.org/wiki/Kashmere_Gate_metro_station
-68,Dwarka Sector 8,1.58,Blue,2005,Elevated,28.5632,77.0656,https://en.wikipedia.org/wiki/Dwarka_Sector_8_metro_station
-75,Dwarka,8.57,Blue,2005,Elevated,28.597,77.0844,https://en.wikipedia.org/wiki/Dwarka_metro_station
-76,Dwarka Mor,9.86,Blue,2005,Elevated,28.6025,77.0498,https://en.wikipedia.org/wiki/Dwarka_Mor_metro_station
-77,Nawada,10.87,Blue,2005,Elevated,28.6098,77.048,https://en.wikipedia.org/wiki/Nawada_metro_station
-78,Uttam Nagar West,11.94,Blue,2005,Elevated,28.6157,77.0455,https://en.wikipedia.org/wiki/Uttam_Nagar_West_metro_station
-79,Uttam Nagar East,12.97,Blue,2005,Elevated,28.622,77.0437,https://en.wikipedia.org/wiki/Uttam_Nagar_East_metro_station
-80,Janakpuri West,14.12,Blue,2005,Elevated,28.6283,77.0483,https://en.wikipedia.org/wiki/Janakpuri_West_metro_station
-81,Janakpuri East,15.23,Blue,2005,Elevated,28.6318,77.0572,https://en.wikipedia.org/wiki/Janakpuri_East_metro_station
-82,Tilak Nagar,16.54,Blue,2005,Elevated,28.6378,77.0654,https://en.wikipedia.org/wiki/Tilak_Nagar_metro_station
-83,Subhash Nagar,17.76,Blue,2005,Elevated,28.6402,77.0691,https://en.wikipedia.org/wiki/Subhash_Nagar_metro_station_(Delhi)
-84,Tagore Garden,18.54,Blue,2005,Elevated,28.6415,77.0714,https://en.wikipedia.org/wiki/Tagore_Garden_metro_station
-85,Rajouri Garden,19.97,Blue,2005,Elevated,28.6424,77.0795,https://en.wikipedia.org/wiki/Rajouri_Garden_metro_station
-86,Ramesh Nagar,20.72,Blue,2005,Elevated,28.6437,77.0843,https://en.wikipedia.org/wiki/Ramesh_Nagar_metro_station
-87,Moti Nagar,21.71,Blue,2005,Elevated,28.6457,77.0899,https://en.wikipedia.org/wiki/Moti_Nagar_metro_station
-88,Kirti Nagar,22.44,Blue,2005,Elevated,28.6551,77.1515,https://en.wikipedia.org/wiki/Kirti_Nagar_metro_station
-89,Shadipur,23.77,Blue,2005,Elevated,28.653,77.1519,https://en.wikipedia.org/wiki/Shadipur_metro_station
-90,Patel Nagar,24.86,Blue,2005,Underground,28.651,77.156,https://en.wikipedia.org/wiki/Patel_Nagar_metro_station
-91,Rajendra Place,25.98,Blue,2005,Underground,28.642,77.1774,https://en.wikipedia.org/wiki/Rajendra_Place_metro_station
-92,Karol Bagh,26.92,Blue,2005,Underground,28.6434,77.1913,https://en.wikipedia.org/wiki/Karol_Bagh_metro_station
-93,Jhandewalan,27.55,Blue,2005,Underground,28.6437,77.2026,https://en.wikipedia.org/wiki/Jhandewalan_metro_station
-94,Ramakrishna Ashram Marg,28.66,Blue,2005,Underground,28.6377,77.2086,https://en.wikipedia.org/wiki/Ramakrishna_Ashram_Marg_metro_station
-95,Rajiv Chowk,29.53,Blue,2005,Underground,28.633,77.2195,https://en.wikipedia.org/wiki/Rajiv_Chowk_metro_station
-96,Barakhamba Road,30.57,Blue,2005,Underground,28.632,77.2296,https://en.wikipedia.org/wiki/Barakhamba_Road_metro_station
-42,Chandni Chowk,16.06,Yellow,2005,Underground,28.6564,77.2302,https://en.wikipedia.org/wiki/Chandni_Chowk_metro_station_(Delhi)
-43,Chawri Bazar,17.09,Yellow,2005,Underground,28.6501,77.2274,https://en.wikipedia.org/wiki/Chawri_Bazar_metro_station
-44,New Delhi,18.33,Yellow,2005,Underground,28.6425,77.2215,https://en.wikipedia.org/wiki/New_Delhi_metro_station
-45,Rajiv Chowk,19.57,Yellow,2005,Underground,28.633,77.2195,https://en.wikipedia.org/wiki/Rajiv_Chowk_metro_station
-46,Patel Chowk,20.54,Yellow,2005,Underground,28.6239,77.2153,https://en.wikipedia.org/wiki/Patel_Chowk_metro_station
-47,Central Secretariat,21.68,Yellow,2005,Underground,28.615,77.2118,https://en.wikipedia.org/wiki/Central_Secretariat_metro_station
-50,Jorbagh,24.33,Yellow,2005,Underground,28.5958,77.2037,https://en.wikipedia.org/wiki/Jor_Bagh_metro_station
-69,Dwarka Sector 9,2.72,Blue,2006,Elevated,28.5706,77.0706,https://en.wikipedia.org/wiki/Dwarka_Sector_9_metro_station
-70,Dwarka Sector 10,3.89,Blue,2006,Elevated,28.5795,77.071,https://en.wikipedia.org/wiki/Dwarka_Sector_10_metro_station
-71,Dwarka Sector 11,4.77,Blue,2006,Elevated,28.5847,77.0697,https://en.wikipedia.org/wiki/Dwarka_Sector_11_metro_station
-72,Dwarka Sector 12,5.62,Blue,2006,Elevated,28.5891,77.0738,https://en.wikipedia.org/wiki/Dwarka_Sector_12_metro_station
-73,Dwarka Sector 13,6.31,Blue,2006,Elevated,28.5929,77.0756,https://en.wikipedia.org/wiki/Dwarka_Sector_13_metro_station
-74,Dwarka Sector 14,7.21,Blue,2006,Elevated,28.5961,77.0815,https://en.wikipedia.org/wiki/Dwarka_Sector_14_metro_station
-97,Mandi House,31.73,Blue,2006,Underground,28.6258,77.2347,https://en.wikipedia.org/wiki/Mandi_House_metro_station
-98,Pragati Maidan,32.52,Blue,2006,Underground,28.6224,77.2448,https://en.wikipedia.org/wiki/Pragati_Maidan_metro_station
-99,Indraprastha,33.81,Blue,2006,Underground,28.6187,77.2442,https://en.wikipedia.org/wiki/Indraprastha_metro_station
-9,Dilshad Garden,11.46,Red,2008,Elevated,28.6756,77.3215,https://en.wikipedia.org/wiki/Dilshad_Garden_metro_station
-10,Jhilmil,12.69,Red,2008,Elevated,28.6748,77.3105,https://en.wikipedia.org/wiki/Jhilmil_metro_station
-11,Mansarovar Park,13.87,Red,2008,Elevated,28.6737,77.2954,https://en.wikipedia.org/wiki/Mansarovar_Park_metro_station  
-100,Yamuna Bank,35.23,Blue,2009,Elevated,28.6145,77.2621,https://en.wikipedia.org/wiki/Yamuna_Bank_metro_station
-101,Akshardham,36.62,Blue,2009,Elevated,28.6103,77.2769,https://en.wikipedia.org/wiki/Akshardham_metro_station
-102,Mayur Vihar Phase-1,37.98,Blue,2009,Elevated,28.6016,77.2936,https://en.wikipedia.org/wiki/Mayur_Vihar-I_metro_station
-103,Mayur Vihar Extension,39.16,Blue,2009,Elevated,28.5893,77.3037,https://en.wikipedia.org/wiki/Mayur_Vihar_Extension_metro_station
-104,New Ashok Nagar,40.41,Blue,2009,Elevated,28.5843,77.3108,https://en.wikipedia.org/wiki/New_Ashok_Nagar_metro_station
-105,Noida Sector 15,42.12,Blue,2009,Elevated,28.5818,77.3177,https://en.wikipedia.org/wiki/Noida_Sector_15_metro_station
-106,Noida Sector 16,43.1,Blue,2009,Elevated,28.5741,77.3237,https://en.wikipedia.org/wiki/Noida_Sector_16_metro_station
-107,Noida Sector 18,44.24,Blue,2009,Elevated,28.5706,77.3288,https://en.wikipedia.org/wiki/Noida_Sector_18_metro_station
-108,Botanical Garden,45.65,Blue,2009,Elevated,28.5644,77.3364,https://en.wikipedia.org/wiki/Botanical_Garden_metro_station
-109,Golf Course,47.11,Blue,2009,Elevated,28.5533,77.3397,https://en.wikipedia.org/wiki/Golf_Course_metro_station
-110,Noida City Centre,48.36,Blue,2009,Elevated,28.5389,77.3407,https://en.wikipedia.org/wiki/Noida_City_Centre_metro_station
-33,Jahangirpuri,4.75,Yellow,2009,Elevated,28.7259,77.162,https://en.wikipedia.org/wiki/Jahangirpuri_metro_station
-34,Adarsh Nagar,6.06,Yellow,2009,Elevated,28.7169,77.1689,https://en.wikipedia.org/wiki/Adarsh_Nagar_metro_station
-36,Model Town,8.74,Yellow,2009,Elevated,28.7002,77.1903,"https://en.wikipedia.org/wiki/Model_Town_metro_station,_Delhi"
-37,GTB Nagar,10.01,Yellow,2009,Elevated,28.6925,77.2013,https://en.wikipedia.org/wiki/GTB_Nagar_metro_station
-67,Dwarka Sector 21,0.0,Blue,2010,Elevated,28.5535,77.0588,https://en.wikipedia.org/wiki/Dwarka_Sector_21_metro_station
-237,Inderlok,0.0,Green,2010,Elevated,28.6734,77.1703,https://en.wikipedia.org/wiki/Inderlok_metro_station
-151,Ashok Park Main,2.3,Green,2010,Elevated,28.6716,77.155,https://en.wikipedia.org/wiki/Ashok_Park_Main_metro_station
-152,Punjabi Bagh,3.38,Green,2010,Elevated,28.672929,77.146059,https://en.wikipedia.org/wiki/Punjabi_Bagh_metro_station
-153,Shivaji Park,4.59,Green,2010,Elevated,28.6749,77.1303,https://en.wikipedia.org/wiki/Shivaji_Park_metro_station
-154,Madipur,5.71,Green,2010,Elevated,28.6764,77.1196,https://en.wikipedia.org/wiki/Madipur_metro_station
-155,Paschim Vihar East,6.7,Green,2010,Elevated,28.677327,77.112436,https://en.wikipedia.org/wiki/Paschim_Vihar_East_metro_station
-156,Paschim Vihar West,7.82,Green,2010,Elevated,28.6786,77.1021,https://en.wikipedia.org/wiki/Paschim_Vihar_West_metro_station
-157,Peera Garhi,8.96,Green,2010,Elevated,28.6797,77.0926,https://en.wikipedia.org/wiki/Peera_Garhi_metro_station
-158,Udyog Nagar,9.65,Green,2010,Elevated,28.681,77.0808,https://en.wikipedia.org/wiki/Udyog_Nagar_metro_station
-159,Surajmal Stadium,10.14,Green,2010,Elevated,28.6818,77.074,https://en.wikipedia.org/wiki/Surajmal_Stadium_metro_station
-160,Nangloi,11.48,Green,2010,Elevated,28.6824,77.0647,https://en.wikipedia.org/wiki/Nangloi_metro_station
-161,Nangloi Railway Station,12.38,Green,2010,Elevated,28.6821,77.0561,https://en.wikipedia.org/wiki/Nangloi_Railway_Station_metro_station
-162,Rajdhani Park,13.64,Green,2010,Elevated,28.6822,77.0438,https://en.wikipedia.org/wiki/Rajdhani_Park_metro_station
-163,Mundka,14.75,Green,2010,Elevated,28.6824,77.0306,https://en.wikipedia.org/wiki/Mundka_metro_station
-117,Central Secretariat,8.20,Violet,2010,Underground,28.6150,77.2118,https://en.wikipedia.org/wiki/Central_Secretariat_metro_station
-118,Khan Market,10.30,Violet,2010,Underground,28.60246,77.22788,https://en.wikipedia.org/wiki/Khan_Market_metro_station
-119,Jawaharlal Nehru Stadium,11.74,Violet,2010,Underground,28.59038,77.23305,https://en.wikipedia.org/wiki/Jawaharlal_Nehru_Stadium_metro_station
-120,Jangpura,12.75,Violet,2010,Underground,28.58331,77.23966,https://en.wikipedia.org/wiki/Jangpura_metro_station
-121,Lajpat Nagar,14.21,Violet,2010,Elevated,28.57057,77.23646,https://en.wikipedia.org/wiki/Lajpat_Nagar_metro_station
-122,Moolchand,14.97,Violet,2010,Elevated,28.56399,77.23424,https://en.wikipedia.org/wiki/Moolchand_metro_station
-123,Kailash Colony,16.19,Violet,2010,Elevated,28.55539,77.24195,https://en.wikipedia.org/wiki/Kailash_Colony_metro_station
-124,Nehru Place,17.24,Violet,2010,Elevated,28.55140,77.25177,https://en.wikipedia.org/wiki/Nehru_Place_metro_station
-126,Govind Puri,18.74,Violet,2010,Elevated,28.54461,77.26429,https://en.wikipedia.org/wiki/Govind_Puri_metro_station
-127,Harkesh Nagar Okhla,19.82,Violet,2010,Elevated,28.54292,77.27514,https://en.wikipedia.org/wiki/Harkesh_Nagar_Okhla_metro_station
-128,Jasola Apollo,20.77,Violet,2010,Elevated,28.53813,77.28326,https://en.wikipedia.org/wiki/Jasola_Apollo_metro_station
-129,Sarita Vihar,21.95,Violet,2010,Elevated,28.52859,77.28839,https://en.wikipedia.org/wiki/Sarita_Vihar_metro_station
-31,Rohini Sector 18-19,1.61,Yellow,2010,Elevated,28.738,77.138,"https://en.wikipedia.org/wiki/Rohini_Sector_18,_19_metro_station"
-48,Udyog Bhawan,22.79,Yellow,2010,Underground,28.611,77.2098,https://en.wikipedia.org/wiki/Udyog_Bhawan_metro_station
-49,Race Course,23.52,Yellow,2010,Underground,28.6039,77.2047,https://en.wikipedia.org/wiki/Race_Course_metro_station
-51,INA,25.72,Yellow,2010,Underground,28.5827,77.209,https://en.wikipedia.org/wiki/Dilli_Haat_–_INA_metro_station
-52,AIIMS,26.55,Yellow,2010,Underground,28.571,77.208,https://en.wikipedia.org/wiki/AIIMS_metro_station
-53,Green Park,27.51,Yellow,2010,Underground,28.5624,77.2075,https://en.wikipedia.org/wiki/Green_Park_metro_station
-54,Hauz Khas,29.06,Yellow,2010,Underground,28.5433,77.2067,https://en.wikipedia.org/wiki/Hauz_Khas_metro_station
-55,Malviya Nagar,30.41,Yellow,2010,Underground,28.5279,77.208,https://en.wikipedia.org/wiki/Malviya_Nagar_metro_station
-56,Saket,31.52,Yellow,2010,Underground,28.5188,77.2078,https://en.wikipedia.org/wiki/Saket_metro_station
-57,Qutab Minar,33.01,Yellow,2010,Underground,28.5062,77.2055,https://en.wikipedia.org/wiki/Qutab_Minar_metro_station
-58,Chattarpur,34.37,Yellow,2010,Elevated,28.4973,77.1824,https://en.wikipedia.org/wiki/Chhatarpur_metro_station
-59,Sultanpur,35.72,Yellow,2010,Elevated,28.493,77.1632,https://en.wikipedia.org/wiki/Sultanpur_metro_station
-60,Ghitorni,37.47,Yellow,2010,Elevated,28.4832,77.1453,https://en.wikipedia.org/wiki/Ghitorni_metro_station
-61,Arjan Garh,38.99,Yellow,2010,Elevated,28.4767,77.127,https://en.wikipedia.org/wiki/Arjan_Garh_metro_station
-62,Guru Dronacharya,40.78,Yellow,2010,Elevated,28.4791,77.1004,https://en.wikipedia.org/wiki/Guru_Dronacharya_metro_station
-63,Sikandarpur,42.24,Yellow,2010,Elevated,28.475,77.0917,https://en.wikipedia.org/wiki/Sikandarpur_metro_station
-64,MG Road,43.34,Yellow,2010,Elevated,28.4687,77.0803,https://en.wikipedia.org/wiki/MG_Road_metro_station_(Gurgaon)
-65,IFFCO Chowk,44.56,Yellow,2010,Elevated,28.4601,77.0722,https://en.wikipedia.org/wiki/IFFCO_Chowk_metro_station
-66,Huda City Centre,45.95,Yellow,2010,Elevated,28.459,77.0524,https://en.wikipedia.org/wiki/Millennium_City_Centre_Gurugram_metro_station
-149,Kirti Nagar,0.0,Green,2011,Elevated,28.6551,77.1515,https://en.wikipedia.org/wiki/Kirti_Nagar_metro_station
-150,Satguru Ramsingh Marg,1.12,Green,2011,Elevated,28.662048,77.157644,https://en.wikipedia.org/wiki/Satguru_Ramsingh_Marg_metro_station
-142,New Delhi,0.0,Orange,2011,Underground,28.6425,77.2215,https://en.wikipedia.org/wiki/New_Delhi_metro_station
-143,Shivaji Stadium,1.37,Orange,2011,Underground,28.633,77.213,https://en.wikipedia.org/wiki/Shivaji_Stadium_metro_station
-144,Dhaula Kuan,5.41,Orange,2011,Underground,28.5964,77.1617,https://en.wikipedia.org/wiki/Dhaula_Kuan_metro_station
-145,Delhi Aerocity,8.7,Orange,2011,Elevated,28.5554,77.1032,https://en.wikipedia.org/wiki/Delhi_Aerocity_metro_station
-146,Airport T3,10.21,Orange,2011,Underground,28.554,77.0881,https://en.wikipedia.org/wiki/Delhi_Aerocity_metro_station
-147,Airport T1,12.14,Orange,2011,Underground,28.5693,77.07,https://en.wikipedia.org/wiki/IGI_Airport_metro_station
-148,Dwarka Sector 21,14.87,Orange,2011,Elevated,28.5535,77.0588,https://en.wikipedia.org/wiki/Dwarka_Sector_21_metro_station
-130,Mohan Estate,23.11,Violet,2011,Elevated,28.51962,77.29463,https://en.wikipedia.org/wiki/Mohan_Estate_metro_station
-131,Tughlakabad,25.07,Violet,2011,Elevated,28.50257,77.29940,https://en.wikipedia.org/wiki/Tughlakabad_metro_station
-132,Badarpur Border,26.13,Violet,2011,Elevated,28.49358,77.30306,https://en.wikipedia.org/wiki/Badarpur_Border_metro_station
-238,Mandi House,5.35,Violet,2014,Underground,28.6258,77.2347,https://en.wikipedia.org/wiki/Mandi_House_metro_station
-133,NHPC Chowk,30.15,Violet,2015,Elevated,28.45766,77.30742,https://en.wikipedia.org/wiki/NHPC_Chowk_metro_station
-134,Mewala Maharajpur,31.17,Violet,2015,Elevated,28.44850,77.30813,https://en.wikipedia.org/wiki/Mewala_Maharajpur_metro_station
-135,Sector 28,32.30,Violet,2015,Elevated,28.43833,77.30910,https://en.wikipedia.org/wiki/Sector_28_metro_station
-136,Badkhal Mor,34.03,Violet,2015,Elevated,28.42278,77.31028,https://en.wikipedia.org/wiki/Badkhal_Mor_metro_station
-137,Old Faridabad,35.37,Violet,2015,Elevated,28.41080,77.31140,https://en.wikipedia.org/wiki/Old_Faridabad_metro_station
-138,Neelam Chowk Ajronda,36.82,Violet,2015,Elevated,28.39780,77.31240,https://en.wikipedia.org/wiki/Neelam_Chowk_Ajronda_metro_station
-139,Bata Chowk,37.72,Violet,2015,Elevated,28.39000,77.31000,https://en.wikipedia.org/wiki/Bata_Chowk_metro_station
-140,Escorts Mujesar,39.98,Violet,2015,Elevated,28.37008,77.31495,https://en.wikipedia.org/wiki/Escorts_Mujesar_metro_station
-30,Samaypur Badli,0.0,Yellow,2015,Elevated,28.7446,77.1365,https://en.wikipedia.org/wiki/Samaypur_Badli_metro_station
-32,Haiderpur Badli Mor,3.16,Yellow,2015,Elevated,28.7271,77.1538,https://en.wikipedia.org/wiki/Haiderpur_Badli_Mor_metro_station
-186,Kalkaji Mandir,18.24,Magenta,2017,Underground,28.5478,77.2551,https://en.wikipedia.org/wiki/Kalkaji_Mandir_metro_station
-187,Okhla NSIC,19.35,Magenta,2017,Underground,28.5363,77.2649,https://en.wikipedia.org/wiki/Okhla_NSIC_metro_station
-188,Sukhdev Vihar,20.41,Magenta,2017,Underground,28.5271,77.2659,https://en.wikipedia.org/wiki/Sukhdev_Vihar_metro_station
-189,Jamia Millia Islamia,21.52,Magenta,2017,Underground,28.531,77.2778,https://en.wikipedia.org/wiki/Jamia_Millia_Islamia_metro_station
-190,Okhla Vihar,22.63,Magenta,2017,Elevated,28.531,77.294,https://en.wikipedia.org/wiki/Okhla_Vihar_metro_station
-191,Jasola Vihar Shaheen Bagh,23.71,Magenta,2017,Elevated,28.529,77.3052,https://en.wikipedia.org/wiki/Jasola_Vihar_Shaheen_Bagh_metro_station
-192,Kalindi Kunj,24.82,Magenta,2017,Elevated,28.5284,77.3132,https://en.wikipedia.org/wiki/Kalindi_Kunj_metro_station
-193,Okhla Bird Sanctuary,25.91,Magenta,2017,Elevated,28.5194,77.3134,https://en.wikipedia.org/wiki/Okhla_Bird_Sanctuary_metro_station
-194,Botanical Garden,27.04,Magenta,2017,Elevated,28.5644,77.3364,https://en.wikipedia.org/wiki/Botanical_Garden_metro_station
-236,Kashmere Gate,0.0,Violet,2017,Underground,28.6675,77.228,https://en.wikipedia.org/wiki/Kashmere_Gate_metro_station
-164,Ghevra,16.94,Green,2018,Elevated,28.6934,76.9214,https://en.wikipedia.org/wiki/Ghevra_metro_station
-165,Tikri Kalan,18.42,Green,2018,Elevated,28.702,76.9095,https://en.wikipedia.org/wiki/Tikri_Kalan_metro_station
-166,Tikri Border,19.93,Green,2018,Elevated,28.7126,76.8989,https://en.wikipedia.org/wiki/Tikri_Border_metro_station
-167,Pandit Shree Ram Sharma,21.38,Green,2018,Elevated,28.7148,76.8815,https://en.wikipedia.org/wiki/Pandit_Shree_Ram_Sharma_metro_station
-168,Bahadurgarh City,22.85,Green,2018,Elevated,28.7029,76.8647,https://en.wikipedia.org/wiki/Bahadurgarh_City_metro_station
-169,Brigadier Hoshiyar Singh,24.3,Green,2018,Elevated,28.6964,76.8487,https://en.wikipedia.org/wiki/Brigadier_Hoshiyar_Singh_metro_station
-170,Janakpuri West,0.0,Magenta,2018,Underground,28.6283,77.0483,https://en.wikipedia.org/wiki/Janakpuri_West_metro_station
-171,Dabri Mor,1.62,Magenta,2018,Elevated,28.6168,77.0443,https://en.wikipedia.org/wiki/Dabri_Mor_metro_station
-172,Dashrathpuri,2.71,Magenta,2018,Elevated,28.6088,77.0436,https://en.wikipedia.org/wiki/Dashrathpuri_metro_station
-173,Palam,4.23,Magenta,2018,Elevated,28.594,77.0458,https://en.wikipedia.org/wiki/Palam_metro_station
-174,Sadar Bazar Cantonment,5.57,Magenta,2018,Elevated,28.585,77.0517,https://en.wikipedia.org/wiki/Sadar_Bazar_Cantonment_metro_station
-175,Terminal 1 IGI Airport,7.12,Magenta,2018,Elevated,28.5719,77.0624,https://en.wikipedia.org/wiki/Terminal_1_IGI_Airport_metro_station
-176,Shankar Vihar,8.68,Magenta,2018,Elevated,28.5593,77.0713,https://en.wikipedia.org/wiki/Shankar_Vihar_metro_station
-177,Vasant Vihar,9.83,Magenta,2018,Underground,28.5565,77.1576,https://en.wikipedia.org/wiki/Vasant_Vihar_metro_station
-178,Munirka,10.51,Magenta,2018,Underground,28.5563,77.1726,https://en.wikipedia.org/wiki/Munirka_metro_station
-179,RK Puram,11.48,Magenta,2018,Underground,28.5536,77.1823,https://en.wikipedia.org/wiki/R._K._Puram_metro_station
-180,IIT Delhi,12.36,Magenta,2018,Underground,28.5471,77.1901,https://en.wikipedia.org/wiki/IIT_Delhi_metro_station
-181,Hauz Khas,13.41,Magenta,2018,Underground,28.5433,77.2067,https://en.wikipedia.org/wiki/Hauz_Khas_metro_station
-182,Panchsheel Park,14.39,Magenta,2018,Underground,28.5376,77.2119,https://en.wikipedia.org/wiki/Panchsheel_Park_metro_station
-183,Chirag Delhi,15.31,Magenta,2018,Underground,28.5302,77.2117,https://en.wikipedia.org/wiki/Chirag_Delhi_metro_station
-184,Greater Kailash,16.43,Magenta,2018,Underground,28.5397,77.2374,https://en.wikipedia.org/wiki/Greater_Kailash_metro_station
-185,Nehru Enclave,17.12,Magenta,2018,Underground,28.5484,77.2372,https://en.wikipedia.org/wiki/Nehru_Enclave_metro_station
-195,Majlis Park,0.0,Pink,2018,Elevated,28.7083,77.1907,https://en.wikipedia.org/wiki/Majlis_Park_metro_station
-196,Azadpur,1.48,Pink,2018,Elevated,28.7074,77.1771,https://en.wikipedia.org/wiki/Azadpur_metro_station
-197,Shalimar Bagh,3.11,Pink,2018,Elevated,28.717,77.1604,https://en.wikipedia.org/wiki/Shalimar_Bagh_metro_station
-198,Netaji Subhash Place,4.62,Pink,2018,Elevated,28.6684,77.1488,https://en.wikipedia.org/wiki/Netaji_Subhash_Place_metro_station
-199,Shakurpur,5.73,Pink,2018,Elevated,28.6799,77.1432,https://en.wikipedia.org/wiki/Shakurpur_metro_station
-200,Punjabi Bagh West,7.12,Pink,2018,Elevated,28.6728,77.1392,https://en.wikipedia.org/wiki/Punjabi_Bagh_West_metro_station
-201,ESI Hospital,8.51,Pink,2018,Elevated,28.6382,77.1054,https://en.wikipedia.org/wiki/ESI_Hospital_metro_station
-202,Rajouri Garden,9.62,Pink,2018,Elevated,28.6424,77.0795,https://en.wikipedia.org/wiki/Rajouri_Garden_metro_station
-203,Maya Puri,10.73,Pink,2018,Elevated,28.6351,77.0961,https://en.wikipedia.org/wiki/Mayapuri_metro_station
-204,Naraina Vihar,11.84,Pink,2018,Elevated,28.6371,77.1087,https://en.wikipedia.org/wiki/Naraina_Vihar_metro_station
-205,Delhi Cantt,13.21,Pink,2018,Elevated,28.6133,77.1278,https://en.wikipedia.org/wiki/Delhi_Cantonment_metro_station
-206,Durgabai Deshmukh South Campus,14.32,Pink,2018,Underground,28.5993,77.1721,https://en.wikipedia.org/wiki/Durgabai_Deshmukh_South_Campus_metro_station
-207,Sir Vishweshwaraiah Moti Bagh,15.43,Pink,2018,Underground,28.5848,77.1714,https://en.wikipedia.org/wiki/Sir_Vishweshwaraiah_Moti_Bagh_metro_station
-208,Bhikaji Cama Place,16.54,Pink,2018,Underground,28.5722,77.1861,https://en.wikipedia.org/wiki/Bhikaji_Cama_Place_metro_station
-209,Sarojini Nagar,17.65,Pink,2018,Underground,28.5793,77.2017,https://en.wikipedia.org/wiki/Sarojini_Nagar_metro_station
-210,INA,18.73,Pink,2018,Underground,28.5827,77.209,https://en.wikipedia.org/wiki/INA_metro_station
-211,South Extension,19.84,Pink,2018,Underground,28.5756,77.222,https://en.wikipedia.org/wiki/South_Extension_metro_station
-212,Lajpat Nagar,20.95,Pink,2018,Underground,28.5751,77.2433,https://en.wikipedia.org/wiki/Lajpat_Nagar_metro_station
-213,Vinobapuri,22.06,Pink,2018,Underground,28.5666,77.2559,https://en.wikipedia.org/wiki/Vinobapuri_metro_station
-214,Ashram,23.17,Pink,2018,Underground,28.5685,77.2637,https://en.wikipedia.org/wiki/Ashram_metro_station
-215,Hazrat Nizamuddin,24.28,Pink,2018,Underground,28.5834,77.2554,https://en.wikipedia.org/wiki/Hazrat_Nizamuddin_metro_station
-216,Mayur Vihar Phase-1,26.15,Pink,2018,Elevated,28.6016,77.2936,https://en.wikipedia.org/wiki/Mayur_Vihar-I_metro_station
-217,Mayur Vihar Pocket 1,27.26,Pink,2018,Elevated,28.5941,77.3029,https://yometro.com/mayur-vihar-pocket-i-metro-station-110275
-218,Trilokpuri Sanjay Lake,28.37,Pink,2018,Elevated,28.5919,77.3102,https://en.wikipedia.org/wiki/Trilokpuri_Sanjay_Lake_metro_station
-219,Vinod Nagar East,29.48,Pink,2018,Elevated,28.6016,77.3127,https://en.wikipedia.org/wiki/Vinod_Nagar_East_metro_station
-220,Mandawali West Vinod Nagar,30.23,Pink,2018,Elevated,28.612,77.3089,https://en.wikipedia.org/wiki/Mandawali_-_West_Vinod_Nagar_metro_station
-221,IP Extension,31.34,Pink,2018,Elevated,28.6196,77.3023,https://en.wikipedia.org/wiki/IP_Extension_metro_station
-222,Anand Vihar,32.45,Pink,2018,Elevated,28.6456,77.3156,https://en.wikipedia.org/wiki/Anand_Vihar_metro_station
-223,Karkarduma,33.56,Pink,2018,Elevated,28.6516,77.3035,https://en.wikipedia.org/wiki/Karkarduma_metro_station
-224,Karkarduma Court,34.67,Pink,2018,Elevated,28.6534,77.2946,https://en.wikipedia.org/wiki/Karkarduma_Court_metro_station
-225,Krishna Nagar,35.78,Pink,2018,Elevated,28.657,77.2739,https://en.wikipedia.org/wiki/Krishna_Nagar_metro_station_(Delhi)
-226,East Azad Nagar,36.42,Pink,2018,Elevated,28.6582,77.2634,https://en.wikipedia.org/wiki/East_Azad_Nagar_metro_station
-227,Welcome,37.53,Pink,2018,Elevated,28.6753,77.2779,https://en.wikipedia.org/wiki/Welcome_metro_station
-228,Jaffrabad,38.64,Pink,2018,Elevated,28.6822,77.2608,https://en.wikipedia.org/wiki/Jaffrabad_metro_station
-229,Maujpur Babarpur,39.75,Pink,2018,Elevated,28.6887,77.2549,https://en.wikipedia.org/wiki/Maujpur_-_Babarpur_metro_station
-230,Gokulpuri,40.86,Pink,2018,Elevated,28.6984,77.2647,https://en.wikipedia.org/wiki/Gokulpuri_metro_station
-231,Johri Enclave,41.97,Pink,2018,Elevated,28.7029,77.2684,https://en.wikipedia.org/wiki/Johri_Enclave_metro_station
-232,Shiv Vihar,43.08,Pink,2018,Elevated,28.7099,77.2724,https://en.wikipedia.org/wiki/Shiv_Vihar_metro_station
-125,Kalkaji Mandir,17.99,Violet,2010,Elevated,28.5496,77.2591,https://en.wikipedia.org/wiki/Kalkaji_Mandir_metro_station
-141,Raja Nahar Singh,43.35,Violet,2018,Elevated,28.33980,77.31645,https://en.wikipedia.org/wiki/Raja_Nahar_Singh_metro_station
-111,Noida Sector 34,49.6,Blue,2019,Elevated,28.5343,77.3409,https://en.wikipedia.org/wiki/Noida_Sector_34_metro_station
-112,Noida Sector 52,51.1,Blue,2019,Elevated,28.5337,77.341,https://en.wikipedia.org/wiki/Noida_Sector_52_metro_station
-113,Noida Sector 61,52.31,Blue,2019,Elevated,28.5413,77.3604,https://en.wikipedia.org/wiki/Noida_Sector_61_metro_station
-114,Noida Sector 59,53.43,Blue,2019,Elevated,28.5547,77.3633,https://en.wikipedia.org/wiki/Noida_Sector_59_metro_station
-115,Noida Sector 62,54.81,Blue,2019,Elevated,28.571,77.3605,https://en.wikipedia.org/wiki/Noida_Sector_62_metro_station
-116,Noida Electronic City,55.97,Blue,2019,Elevated,28.5898,77.3533,https://en.wikipedia.org/wiki/Noida_Electronic_City_metro_station
-233,Dwarka,0.0,Grey,2019,Elevated,28.597,77.0844,https://en.wikipedia.org/wiki/Dwarka_metro_station
-240,Nangli,2.0,Grey,2019,Elevated,28.617239,77.0104,https://en.wikipedia.org/wiki/Nangli_metro_station
-235,Najafgarh,3.81,Grey,2019,Elevated,28.61255,76.986508,https://en.wikipedia.org/wiki/Najafgarh_metro_station
-1,Shaheed Sthal (New Bus Adda),0.0,Red,2019,Elevated,28.7186,77.4538,https://en.wikipedia.org/wiki/Shaheed_Sthal_metro_station
-2,Hindon River,1.48,Red,2019,Elevated,28.7139,77.4398,https://en.wikipedia.org/wiki/Hindon_River_metro_station
-3,Arthala,2.93,Red,2019,Elevated,28.7086,77.4258,https://en.wikipedia.org/wiki/Arthala_metro_station
-4,Mohan Nagar,4.35,Red,2019,Elevated,28.7024,77.4105,https://en.wikipedia.org/wiki/Mohan_Nagar_metro_station
-5,Shyam Park,5.84,Red,2019,Elevated,28.6947,77.3956,https://en.wikipedia.org/wiki/Shyam_Park_metro_station
-6,Major Mohit Sharma Rajendra Nagar,7.12,Red,2019,Elevated,28.6872,77.3825,https://en.wikipedia.org/wiki/Major_Mohit_Sharma_Rajendra_Nagar_metro_station
-7,Raj Bagh,8.61,Red,2019,Elevated,28.6797,77.3677,https://en.wikipedia.org/wiki/Raj_Bagh_metro_station
-8,Shaheed Nagar,10.11,Red,2019,Elevated,28.6746,77.3551,https://en.wikipedia.org/wiki/Shaheed_Nagar_metro_station
-234,Dhansa Bus Stand,5.2,Grey,2021,Elevated,28.61191,76.97848,https://en.wikipedia.org/wiki/Dhansa_Bus_Stand_metro_station
-239,Punjabi Bagh West,3.73,Green,2022,Elevated,28.6728,77.1392,https://en.wikipedia.org/wiki/Punjabi_Bagh_West_metro_station
-241,Lal Qila,1.47,Violet,2017,Underground,28.65667,77.23667,https://en.wikipedia.org/wiki/Lal_Qila_metro_station
-242,Jama Masjid,2.24,Violet,2017,Underground,28.65016,77.23758,https://en.wikipedia.org/wiki/Jama_Masjid_metro_station
-243,Delhi Gate,3.40,Violet,2017,Underground,28.64007,77.24038,https://en.wikipedia.org/wiki/Delhi_Gate_metro_station
-244,ITO,4.59,Violet,2015,Underground,28.62944,77.24139,https://en.wikipedia.org/wiki/ITO_metro_station
-245,Janpath,6.87,Violet,2014,Underground,28.62500,77.21917,https://en.wikipedia.org/wiki/Janpath_metro_station
-246,Sarai,27.91,Violet,2015,Elevated,28.47778,77.30500,https://en.wikipedia.org/wiki/Sarai_metro_station
-247,Sant Surdas,41.70,Violet,2018,Elevated,28.35472,77.31611,https://en.wikipedia.org/wiki/Sant_Surdas_(Sihi)_metro_station
+ID,Station Name,Distance,Line,Branch,Opened,Layout,Latitude,Longitude,WikiLink
+249,Vaishali,0.0,Blue,Vaishali Branch,2011,Elevated,28.649947,77.339711,https://en.wikipedia.org/wiki/Vaishali_metro_station
+250,Kaushambi,1.82,Blue,Vaishali Branch,2011,Elevated,28.645523,77.324297,https://en.wikipedia.org/wiki/Kaushambi_metro_station
+251,Anand Vihar,2.78,Blue,Vaishali Branch,2010,Elevated,28.646886,77.315878,https://en.wikipedia.org/wiki/Anand_Vihar_metro_station
+252,Karkarduma,3.96,Blue,Vaishali Branch,2010,Elevated,28.648539,77.30556,https://en.wikipedia.org/wiki/Karkarduma_metro_station
+253,Preet Vihar,5.44,Blue,Vaishali Branch,2010,Elevated,28.6415,77.2951,https://en.wikipedia.org/wiki/Preet_Vihar_metro_station
+254,Nirman Vihar,6.57,Blue,Vaishali Branch,2010,Elevated,28.636531,77.286804,https://en.wikipedia.org/wiki/Nirman_Vihar_metro_station
+255,Laxmi Nagar,7.85,Blue,Vaishali Branch,2010,Elevated,28.630596,77.277603,https://en.wikipedia.org/wiki/Laxmi_Nagar_metro_station
+256,Yamuna Bank,9.28,Blue,Vaishali Branch,2009,Elevated,28.62328,77.26793,https://en.wikipedia.org/wiki/Yamuna_Bank_metro_station
+67,Dwarka Sector 21,0.0,Blue,Main,2010,Elevated,28.552349,77.058065,https://en.wikipedia.org/wiki/Dwarka_Sector_21_metro_station
+68,Dwarka Sector 8,1.97,Blue,Main,2005,Elevated,28.56562,77.06703,https://en.wikipedia.org/wiki/Dwarka_Sector_8_metro_station
+69,Dwarka Sector 9,3.1,Blue,Main,2006,Elevated,28.5743,77.0652,https://en.wikipedia.org/wiki/Dwarka_Sector_9_metro_station
+70,Dwarka Sector 10,4.33,Blue,Main,2006,Elevated,28.581099,77.057422,https://en.wikipedia.org/wiki/Dwarka_Sector_10_metro_station
+71,Dwarka Sector 11,5.47,Blue,Main,2006,Elevated,28.5865,77.0494,https://en.wikipedia.org/wiki/Dwarka_Sector_11_metro_station
+72,Dwarka Sector 12,6.7,Blue,Main,2006,Elevated,28.592303,77.040682,https://en.wikipedia.org/wiki/Dwarka_Sector_12_metro_station
+73,Dwarka Sector 13,7.73,Blue,Main,2006,Elevated,28.597124,77.033374,https://en.wikipedia.org/wiki/Dwarka_Sector_13_metro_station
+74,Dwarka Sector 14,8.79,Blue,Main,2006,Elevated,28.6023,77.026,https://en.wikipedia.org/wiki/Dwarka_Sector_14_metro_station
+75,Dwarka,10.45,Blue,Main,2005,Elevated,28.615,77.0228,https://en.wikipedia.org/wiki/Dwarka_metro_station
+76,Dwarka Mor,11.76,Blue,Main,2005,Elevated,28.6193,77.0334,https://en.wikipedia.org/wiki/Dwarka_Mor_metro_station
+77,Nawada,13.08,Blue,Main,2005,Elevated,28.6202,77.0451,https://en.wikipedia.org/wiki/Nawada_metro_station
+78,Uttam Nagar West,14.29,Blue,Main,2005,Elevated,28.621728,77.055698,https://en.wikipedia.org/wiki/Uttam_Nagar_West_metro_station
+79,Uttam Nagar East,15.43,Blue,Main,2005,Elevated,28.624786,77.065207,https://en.wikipedia.org/wiki/Uttam_Nagar_East_metro_station
+80,Janakpuri West,17.01,Blue,Main,2005,Elevated,28.6295,77.0782,https://en.wikipedia.org/wiki/Janakpuri_West_metro_station
+81,Janakpuri East,18.05,Blue,Main,2005,Elevated,28.633013,77.086593,https://en.wikipedia.org/wiki/Janakpuri_East_metro_station
+82,Tilak Nagar,19.24,Blue,Main,2005,Elevated,28.6366,77.0964,https://en.wikipedia.org/wiki/Tilak_Nagar_metro_station
+83,Subhash Nagar,20.31,Blue,Main,2005,Elevated,28.6404,77.1049,https://en.wikipedia.org/wiki/Subhash_Nagar_metro_station_(Delhi)
+84,Tagore Garden,21.3,Blue,Main,2005,Elevated,28.6437,77.1129,https://en.wikipedia.org/wiki/Tagore_Garden_metro_station
+85,Rajouri Garden,22.58,Blue,Main,2005,Elevated,28.649,77.1226,https://en.wikipedia.org/wiki/Rajouri_Garden_metro_station
+86,Ramesh Nagar,23.7,Blue,Main,2005,Elevated,28.653,77.1315,https://en.wikipedia.org/wiki/Ramesh_Nagar_metro_station
+87,Moti Nagar,25.11,Blue,Main,2005,Elevated,28.6581,77.1426,https://en.wikipedia.org/wiki/Moti_Nagar_metro_station
+88,Kirti Nagar,26.18,Blue,Main,2005,Elevated,28.6551,77.1515,https://en.wikipedia.org/wiki/Kirti_Nagar_metro_station
+89,Shadipur,27.06,Blue,Main,2005,Elevated,28.651655,77.158249,https://en.wikipedia.org/wiki/Shadipur_metro_station
+90,Patel Nagar,28.56,Blue,Main,2005,Underground,28.645,77.1693,https://en.wikipedia.org/wiki/Patel_Nagar_metro_station
+91,Rajendra Place,29.63,Blue,Main,2005,Underground,28.6422,77.1783,https://en.wikipedia.org/wiki/Rajendra_Place_metro_station
+92,Karol Bagh,30.8,Blue,Main,2005,Underground,28.6439,77.1885,https://en.wikipedia.org/wiki/Karol_Bagh_metro_station
+93,Jhandewalan,32.07,Blue,Main,2005,Underground,28.6444,77.1998,https://en.wikipedia.org/wiki/Jhandewalan_metro_station
+94,Ramakrishna Ashram Marg,33.24,Blue,Main,2005,Underground,28.6393,77.2085,https://en.wikipedia.org/wiki/Ramakrishna_Ashram_Marg_metro_station
+95,Rajiv Chowk,34.74,Blue,Main,2005,Underground,28.6328,77.2196,https://en.wikipedia.org/wiki/Rajiv_Chowk_metro_station
+96,Barakhamba Road,35.4,Blue,Main,2005,Underground,28.62998,77.224526,https://en.wikipedia.org/wiki/Barakhamba_Road_metro_station
+97,Mandi House,36.66,Blue,Main,2006,Underground,28.6258,77.2347,https://en.wikipedia.org/wiki/Mandi_House_metro_station
+98,Pragati Maidan,37.58,Blue,Main,2006,Underground,28.6235,77.2425,https://en.wikipedia.org/wiki/Pragati_Maidan_metro_station
+99,Indraprastha,38.51,Blue,Main,2006,Underground,28.6205,77.25,https://en.wikipedia.org/wiki/Indraprastha_metro_station
+100,Yamuna Bank,40.55,Blue,Main,2009,Elevated,28.62328,77.26793,https://en.wikipedia.org/wiki/Yamuna_Bank_metro_station
+101,Akshardham,42.01,Blue,Main,2009,Elevated,28.617911,77.279415,https://en.wikipedia.org/wiki/Akshardham_metro_station
+102,Mayur Vihar Phase-1,44.11,Blue,Main,2009,Elevated,28.604134,77.289526,https://en.wikipedia.org/wiki/Mayur_Vihar-I_metro_station
+103,Mayur Vihar Extension,45.5,Blue,Main,2009,Elevated,28.594211,77.294664,https://en.wikipedia.org/wiki/Mayur_Vihar_Extension_metro_station
+104,New Ashok Nagar,46.55,Blue,Main,2009,Elevated,28.58916,77.302067,https://en.wikipedia.org/wiki/New_Ashok_Nagar_metro_station
+105,Noida Sector 15,47.73,Blue,Main,2009,Elevated,28.585156,77.31158,https://en.wikipedia.org/wiki/Noida_Sector_15_metro_station
+106,Noida Sector 16,48.83,Blue,Main,2009,Elevated,28.578395,77.317635,https://en.wikipedia.org/wiki/Noida_Sector_16_metro_station
+107,Noida Sector 18,50.19,Blue,Main,2009,Elevated,28.570813,77.326116,https://en.wikipedia.org/wiki/Noida_Sector_18_metro_station
+108,Botanical Garden,51.48,Blue,Main,2009,Elevated,28.5642,77.3348,https://en.wikipedia.org/wiki/Botanical_Garden_metro_station
+109,Golf Course,52.8,Blue,Main,2009,Elevated,28.567181,77.346029,https://en.wikipedia.org/wiki/Golf_Course_metro_station
+110,Noida City Centre,54.28,Blue,Main,2009,Elevated,28.5747,77.3561,https://en.wikipedia.org/wiki/Noida_City_Centre_metro_station
+111,Noida Sector 34,55.36,Blue,Main,2019,Elevated,28.580199,77.363441,https://en.wikipedia.org/wiki/Noida_Sector_34_metro_station
+112,Noida Sector 52,56.7,Blue,Main,2019,Elevated,28.5867,77.372839,https://en.wikipedia.org/wiki/Noida_Sector_52_metro_station
+113,Noida Sector 61,58.1,Blue,Main,2019,Elevated,28.597631,77.372299,https://en.wikipedia.org/wiki/Noida_Sector_61_metro_station
+114,Noida Sector 59,59.23,Blue,Main,2019,Elevated,28.606493,77.372726,https://en.wikipedia.org/wiki/Noida_Sector_59_metro_station
+115,Noida Sector 62,60.58,Blue,Main,2019,Elevated,28.616995,77.37361,https://en.wikipedia.org/wiki/Noida_Sector_62_metro_station
+116,Noida Electronic City,61.99,Blue,Main,2019,Elevated,28.627941,77.37493,https://en.wikipedia.org/wiki/Noida_Electronic_City_metro_station
+149,Kirti Nagar,0.0,Green,Kirti Nagar Branch,2011,Elevated,28.6551,77.1515,https://en.wikipedia.org/wiki/Kirti_Nagar_metro_station
+150,Satguru Ramsingh Marg,1.12,Green,Kirti Nagar Branch,2011,Elevated,28.662048,77.157644,https://en.wikipedia.org/wiki/Satguru_Ramsingh_Marg_metro_station
+151,Ashok Park Main,2.38,Green,Kirti Nagar Branch,2010,Elevated,28.6716,77.155,https://en.wikipedia.org/wiki/Ashok_Park_Main_metro_station
+237,Inderlok,0.0,Green,Main,2010,Elevated,28.6734,77.1703,https://en.wikipedia.org/wiki/Inderlok_metro_station
+151,Ashok Park Main,1.73,Green,Main,2010,Elevated,28.6716,77.155,https://en.wikipedia.org/wiki/Ashok_Park_Main_metro_station
+152,Punjabi Bagh,2.75,Green,Main,2010,Elevated,28.672929,77.146059,https://en.wikipedia.org/wiki/Punjabi_Bagh_metro_station
+239,Punjabi Bagh West,3.51,Green,Main,2022,Elevated,28.672826,77.139256,https://en.wikipedia.org/wiki/Punjabi_Bagh_West_metro_station
+153,Shivaji Park,4.55,Green,Main,2010,Elevated,28.6749,77.1303,https://en.wikipedia.org/wiki/Shivaji_Park_metro_station
+154,Madipur,5.77,Green,Main,2010,Elevated,28.6764,77.1196,https://en.wikipedia.org/wiki/Madipur_metro_station
+155,Paschim Vihar East,6.58,Green,Main,2010,Elevated,28.677327,77.112436,https://en.wikipedia.org/wiki/Paschim_Vihar_East_metro_station
+156,Paschim Vihar West,7.75,Green,Main,2010,Elevated,28.6786,77.1021,https://en.wikipedia.org/wiki/Paschim_Vihar_West_metro_station
+157,Peera Garhi,8.83,Green,Main,2010,Elevated,28.6797,77.0926,https://en.wikipedia.org/wiki/Peera_Garhi_metro_station
+158,Udyog Nagar,10.16,Green,Main,2010,Elevated,28.681,77.0808,https://en.wikipedia.org/wiki/Udyog_Nagar_metro_station
+159,Surajmal Stadium,10.93,Green,Main,2010,Elevated,28.6818,77.074,https://en.wikipedia.org/wiki/Surajmal_Stadium_metro_station
+160,Nangloi,11.98,Green,Main,2010,Elevated,28.6824,77.0647,https://en.wikipedia.org/wiki/Nangloi_metro_station
+161,Nangloi Railway Station,12.95,Green,Main,2010,Elevated,28.6821,77.0561,https://en.wikipedia.org/wiki/Nangloi_Railway_Station_metro_station
+162,Rajdhani Park,14.33,Green,Main,2010,Elevated,28.6822,77.0438,https://en.wikipedia.org/wiki/Rajdhani_Park_metro_station
+163,Mundka,15.81,Green,Main,2010,Elevated,28.6824,77.0306,https://en.wikipedia.org/wiki/Mundka_metro_station
+164,Ghevra,19.73,Green,Main,2018,Elevated,28.685289,76.995773,https://en.wikipedia.org/wiki/Ghevra_metro_station
+165,Tikri Kalan,21.81,Green,Main,2018,Elevated,28.686854,76.977336,https://en.wikipedia.org/wiki/Tikri_Kalan_metro_station
+166,Tikri Border,23.31,Green,Main,2018,Elevated,28.688033,76.964051,https://en.wikipedia.org/wiki/Tikri_Border_metro_station
+167,Pandit Shree Ram Sharma,24.73,Green,Main,2018,Elevated,28.689242,76.951458,https://en.wikipedia.org/wiki/Pandit_Shree_Ram_Sharma_metro_station
+168,Bahadurgarh City,26.57,Green,Main,2018,Elevated,28.690724,76.935098,https://en.wikipedia.org/wiki/Bahadurgarh_City_metro_station
+169,Brigadier Hoshiyar Singh,28.54,Green,Main,2018,Elevated,28.697339,76.919244,https://en.wikipedia.org/wiki/Brigadier_Hoshiyar_Singh_metro_station
+233,Dwarka,0.0,Grey,Main,2019,Elevated,28.615,77.0228,https://en.wikipedia.org/wiki/Dwarka_metro_station
+240,Nangli,1.42,Grey,Main,2019,Elevated,28.617239,77.0104,https://en.wikipedia.org/wiki/Nangli_metro_station
+235,Najafgarh,4.17,Grey,Main,2019,Elevated,28.61255,76.986508,https://en.wikipedia.org/wiki/Najafgarh_metro_station
+234,Dhansa Bus Stand,5.07,Grey,Main,2021,Elevated,28.61191,76.97848,https://en.wikipedia.org/wiki/Dhansa_Bus_Stand_metro_station
+257,Krishna Park Extension,0.0,Magenta,Main,2025,Underground,28.650399,77.084976,https://en.wikipedia.org/wiki/Krishna_Park_Extension_metro_station
+170,Janakpuri West,2.78,Magenta,Main,2018,Underground,28.6295,77.0782,https://en.wikipedia.org/wiki/Janakpuri_West_metro_station
+171,Dabri Mor,4.69,Magenta,Main,2018,Elevated,28.615906,77.085257,https://en.wikipedia.org/wiki/Dabri_Mor_metro_station
+172,Dashrathpuri,6.51,Magenta,Main,2018,Elevated,28.6019,77.0824,https://en.wikipedia.org/wiki/Dashrathpuri_metro_station
+173,Palam,8.06,Magenta,Main,2018,Elevated,28.59,77.08,https://en.wikipedia.org/wiki/Palam_metro_station
+174,Sadar Bazar Cantonment,11.94,Magenta,Main,2018,Elevated,28.5771,77.1113,https://en.wikipedia.org/wiki/Sadar_Bazar_Cantonment_metro_station
+175,Terminal 1 IGI Airport,13.97,Magenta,Main,2018,Elevated,28.5648,77.1227,https://en.wikipedia.org/wiki/Terminal_1_IGI_Airport_metro_station
+176,Shankar Vihar,16.03,Magenta,Main,2018,Elevated,28.560775,77.140488,https://en.wikipedia.org/wiki/Shankar_Vihar_metro_station
+177,Vasant Vihar,18.36,Magenta,Main,2018,Underground,28.557829,77.16099,https://en.wikipedia.org/wiki/Vasant_Vihar_metro_station
+178,Munirka,19.82,Magenta,Main,2018,Underground,28.557898,77.173985,https://en.wikipedia.org/wiki/Munirka_metro_station
+179,RK Puram,21.37,Magenta,Main,2018,Underground,28.550491,77.184942,https://en.wikipedia.org/wiki/R._K._Puram_metro_station
+180,IIT Delhi,22.45,Magenta,Main,2018,Underground,28.5472,77.1938,https://en.wikipedia.org/wiki/IIT_Delhi_metro_station
+181,Hauz Khas,23.94,Magenta,Main,2018,Underground,28.543444,77.206344,https://en.wikipedia.org/wiki/Hauz_Khas_metro_station
+182,Panchsheel Park,25.54,Magenta,Main,2018,Underground,28.542338,77.220507,https://en.wikipedia.org/wiki/Panchsheel_Park_metro_station
+183,Chirag Delhi,26.65,Magenta,Main,2018,Underground,28.54,77.23,https://en.wikipedia.org/wiki/Chirag_Delhi_metro_station
+184,Greater Kailash,27.61,Magenta,Main,2018,Underground,28.541832,77.238247,https://en.wikipedia.org/wiki/Greater_Kailash_metro_station
+185,Nehru Enclave,29.15,Magenta,Main,2018,Underground,28.545849,77.251171,https://en.wikipedia.org/wiki/Nehru_Enclave_metro_station
+186,Kalkaji Mandir,30.16,Magenta,Main,2017,Underground,28.5496,77.2591,https://en.wikipedia.org/wiki/Kalkaji_Mandir_metro_station
+187,Okhla NSIC,31.06,Magenta,Main,2017,Underground,28.5546,77.2647,https://en.wikipedia.org/wiki/Okhla_NSIC_metro_station
+188,Sukhdev Vihar,32.41,Magenta,Main,2017,Underground,28.55977,77.275133,https://en.wikipedia.org/wiki/Sukhdev_Vihar_metro_station
+189,Jamia Millia Islamia,33.72,Magenta,Main,2017,Underground,28.562883,77.286231,https://en.wikipedia.org/wiki/Jamia_Millia_Islamia_metro_station
+190,Okhla Vihar,34.39,Magenta,Main,2017,Elevated,28.561285,77.291912,https://en.wikipedia.org/wiki/Okhla_Vihar_metro_station
+191,Jasola Vihar Shaheen Bagh,36.43,Magenta,Main,2017,Elevated,28.545885,77.296644,https://en.wikipedia.org/wiki/Jasola_Vihar_Shaheen_Bagh_metro_station
+192,Kalindi Kunj,38.0,Magenta,Main,2017,Elevated,28.542813,77.310174,https://en.wikipedia.org/wiki/Kalindi_Kunj_metro_station
+193,Okhla Bird Sanctuary,39.82,Magenta,Main,2017,Elevated,28.552864,77.321649,https://en.wikipedia.org/wiki/Okhla_Bird_Sanctuary_metro_station
+194,Botanical Garden,41.89,Magenta,Main,2017,Elevated,28.5642,77.3348,https://en.wikipedia.org/wiki/Botanical_Garden_metro_station
+142,New Delhi,0.0,Orange,Main,2011,Underground,28.6422,77.2215,https://en.wikipedia.org/wiki/New_Delhi_metro_station
+143,Shivaji Stadium,2.06,Orange,Main,2011,Underground,28.62877,77.211412,https://en.wikipedia.org/wiki/Shivaji_Stadium_metro_station
+144,Dhaula Kuan,9.37,Orange,Main,2011,Underground,28.591853,77.16169,https://en.wikipedia.org/wiki/Dhaula_Kuan_metro_station
+145,Delhi Aerocity,16.52,Orange,Main,2011,Elevated,28.54905,77.12079,https://en.wikipedia.org/wiki/Delhi_Aerocity_metro_station
+147,IGI Airport,20.48,Orange,Main,2011,Underground,28.5571,77.0867,https://en.wikipedia.org/wiki/IGI_Airport_metro_station
+148,Dwarka Sector 21,23.75,Orange,Main,2011,Elevated,28.552349,77.058065,https://en.wikipedia.org/wiki/Dwarka_Sector_21_metro_station
+257,Yashobhoomi Dwarka Sector - 25,25.39,Orange,Main,2023,Underground,28.55212,77.04347,https://en.wikipedia.org/wiki/Yashobhoomi_Dwarka_Sector_-_25_metro_station
+195,Majlis Park,0.0,Pink,Main,2018,Elevated,28.7242,77.182,https://en.wikipedia.org/wiki/Majlis_Park_metro_station
+196,Azadpur,2.17,Pink,Main,2018,Elevated,28.7073,77.18,https://en.wikipedia.org/wiki/Azadpur_metro_station
+197,Shalimar Bagh,3.97,Pink,Main,2018,Elevated,28.701819,77.165191,https://en.wikipedia.org/wiki/Shalimar_Bagh_metro_station
+198,Netaji Subhash Place,5.58,Pink,Main,2018,Elevated,28.6959,77.1525,https://en.wikipedia.org/wiki/Netaji_Subhash_Place_metro_station
+199,Shakurpur,6.91,Pink,Main,2018,Elevated,28.685779,77.149626,https://en.wikipedia.org/wiki/Shakurpur_metro_station
+200,Punjabi Bagh West,8.93,Pink,Main,2018,Elevated,28.672826,77.139256,https://en.wikipedia.org/wiki/Punjabi_Bagh_West_metro_station
+201,ESI Hospital,11.22,Pink,Main,2018,Elevated,28.658271,77.127391,https://en.wikipedia.org/wiki/ESI_Hospital_metro_station
+202,Rajouri Garden,12.52,Pink,Main,2018,Elevated,28.649,77.1226,https://en.wikipedia.org/wiki/Rajouri_Garden_metro_station
+203,Maya Puri,14.24,Pink,Main,2018,Elevated,28.637099,77.129741,https://en.wikipedia.org/wiki/Mayapuri_metro_station
+204,Naraina Vihar,16.06,Pink,Main,2018,Elevated,28.624125,77.136488,https://en.wikipedia.org/wiki/Naraina_Vihar_metro_station
+205,Delhi Cantt,18.08,Pink,Main,2018,Elevated,28.60871,77.140423,https://en.wikipedia.org/wiki/Delhi_Cantonment_metro_station
+206,Durgabai Deshmukh South Campus,22.17,Pink,Main,2018,Underground,28.5894,77.1695,https://en.wikipedia.org/wiki/Durgabai_Deshmukh_South_Campus_metro_station
+207,Sir Vishweshwaraiah Moti Bagh,23.73,Pink,Main,2018,Underground,28.578504,77.175726,https://en.wikipedia.org/wiki/Sir_Vishweshwaraiah_Moti_Bagh_metro_station
+208,Bhikaji Cama Place,25.46,Pink,Main,2018,Underground,28.570211,77.187888,https://en.wikipedia.org/wiki/Bhikaji_Cama_Place_metro_station
+209,Sarojini Nagar,26.86,Pink,Main,2018,Underground,28.575807,77.198571,https://en.wikipedia.org/wiki/Sarojini_Nagar_metro_station
+210,INA,27.84,Pink,Main,2018,Underground,28.5752,77.2073,https://en.wikipedia.org/wiki/INA_metro_station
+211,South Extension,29.52,Pink,Main,2018,Underground,28.568611,77.220265,https://en.wikipedia.org/wiki/South_Extension_metro_station
+212,Lajpat Nagar,31.36,Pink,Main,2018,Underground,28.570566,77.23646,https://en.wikipedia.org/wiki/Lajpat_Nagar_metro_station
+213,Vinobapuri,33.04,Pink,Main,2018,Underground,28.565944,77.250502,https://en.wikipedia.org/wiki/Vinobapuri_metro_station
+214,Ashram,34.24,Pink,Main,2018,Underground,28.572208,77.258475,https://en.wikipedia.org/wiki/Ashram_metro_station
+215,Hazrat Nizamuddin,36.44,Pink,Main,2018,Underground,28.589356,77.257128,https://en.wikipedia.org/wiki/Hazrat_Nizamuddin_metro_station
+216,Mayur Vihar Phase-1,40.54,Pink,Main,2018,Elevated,28.604134,77.289526,https://en.wikipedia.org/wiki/Mayur_Vihar-I_metro_station
+217,Mayur Vihar Pocket 1,41.59,Pink,Main,2018,Elevated,28.605857,77.298696,https://yometro.com/mayur-vihar-pocket-i-metro-station-110275
+218,Trilokpuri Sanjay Lake,43.11,Pink,Main,2018,Elevated,28.613678,77.308849,https://en.wikipedia.org/wiki/Trilokpuri_Sanjay_Lake_metro_station
+219,Vinod Nagar East,44.02,Pink,Main,2018,Elevated,28.620039,77.305266,https://en.wikipedia.org/wiki/Vinod_Nagar_East_metro_station
+220,Mandawali West Vinod Nagar,44.66,Pink,Main,2018,Elevated,28.624976,77.304583,https://en.wikipedia.org/wiki/Mandawali_-_West_Vinod_Nagar_metro_station
+221,IP Extension,45.79,Pink,Main,2018,Elevated,28.631898,77.3109,https://en.wikipedia.org/wiki/IP_Extension_metro_station
+222,Anand Vihar,47.79,Pink,Main,2018,Elevated,28.646886,77.315878,https://en.wikipedia.org/wiki/Anand_Vihar_metro_station
+223,Karkarduma,48.97,Pink,Main,2018,Elevated,28.648539,77.30556,https://en.wikipedia.org/wiki/Karkarduma_metro_station
+224,Karkarduma Court,50.25,Pink,Main,2018,Elevated,28.653685,77.295787,https://en.wikipedia.org/wiki/Karkarduma_Court_metro_station
+225,Krishna Nagar,51.07,Pink,Main,2018,Elevated,28.657855,77.290276,https://en.wikipedia.org/wiki/Krishna_Nagar_metro_station_(Delhi)
+226,East Azad Nagar,52.13,Pink,Main,2018,Elevated,28.6647,77.285,https://en.wikipedia.org/wiki/East_Azad_Nagar_metro_station
+227,Welcome,53.37,Pink,Main,2018,Elevated,28.6721,77.2779,https://en.wikipedia.org/wiki/Welcome_metro_station
+228,Jaffrabad,54.78,Pink,Main,2018,Elevated,28.682759,77.274748,https://en.wikipedia.org/wiki/Jaffrabad_metro_station
+229,Maujpur Babarpur,56.09,Pink,Main,2018,Elevated,28.692073,77.279585,https://en.wikipedia.org/wiki/Maujpur_-_Babarpur_metro_station
+230,Gokulpuri,57.61,Pink,Main,2018,Elevated,28.7025,77.2861,https://en.wikipedia.org/wiki/Gokulpuri_metro_station
+231,Johri Enclave,59.05,Pink,Main,2018,Elevated,28.713167,77.290107,https://en.wikipedia.org/wiki/Johri_Enclave_metro_station
+232,Shiv Vihar,60.13,Pink,Main,2018,Elevated,28.721612,77.289494,https://en.wikipedia.org/wiki/Shiv_Vihar_metro_station
+1,Shaheed Sthal (New Bus Adda),0.0,Red,Main,2019,Elevated,28.670621,77.415453,https://en.wikipedia.org/wiki/Shaheed_Sthal_metro_station
+2,Hindon River,1.08,Red,Main,2019,Elevated,28.673415,77.40637,https://en.wikipedia.org/wiki/Hindon_River_metro_station
+3,Arthala,2.78,Red,Main,2019,Elevated,28.676927,77.391773,https://en.wikipedia.org/wiki/Arthala_metro_station
+4,Mohan Nagar,3.68,Red,Main,2019,Elevated,28.67848,77.383933,https://en.wikipedia.org/wiki/Mohan_Nagar_metro_station
+5,Shyam Park,5.14,Red,Main,2019,Elevated,28.678232,77.370902,https://en.wikipedia.org/wiki/Shyam_Park_metro_station
+6,Major Mohit Sharma Rajendra Nagar,6.56,Red,Main,2019,Elevated,28.677631,77.358265,https://en.wikipedia.org/wiki/Major_Mohit_Sharma_Rajendra_Nagar_metro_station
+7,Raj Bagh,7.87,Red,Main,2019,Elevated,28.677031,77.346578,https://en.wikipedia.org/wiki/Raj_Bagh_metro_station
+8,Shaheed Nagar,9.31,Red,Main,2019,Elevated,28.676632,77.333759,https://en.wikipedia.org/wiki/Shaheed_Nagar_metro_station
+9,Dilshad Garden,10.69,Red,Main,2008,Elevated,28.675892,77.321486,https://en.wikipedia.org/wiki/Dilshad_Garden_metro_station
+10,Jhilmil,11.7,Red,Main,2008,Elevated,28.6757,77.3125,https://en.wikipedia.org/wiki/Jhilmil_metro_station
+11,Mansarovar Park,12.92,Red,Main,2008,Elevated,28.6754,77.3016,https://en.wikipedia.org/wiki/Mansarovar_Park_metro_station  
+12,Shahdara,14.25,Red,Main,2002,Elevated,28.6735,77.2899,https://en.wikipedia.org/wiki/Shahdara_metro_station
+13,Welcome,15.61,Red,Main,2002,Elevated,28.6721,77.2779,https://en.wikipedia.org/wiki/Welcome_metro_station
+14,Seelampur,16.9,Red,Main,2002,Elevated,28.6698,77.2667,https://en.wikipedia.org/wiki/Seelampur_metro_station
+15,Shastri Park,18.77,Red,Main,2002,Elevated,28.6682,77.2501,https://en.wikipedia.org/wiki/Shastri_Park_metro_station
+16,Kashmere Gate,21.25,Red,Main,2002,Underground,28.6675,77.228,https://en.wikipedia.org/wiki/Kashmere_Gate_metro_station
+17,Tis Hazari,22.54,Red,Main,2002,Underground,28.6672,77.2165,https://en.wikipedia.org/wiki/Tis_Hazari_metro_station
+18,Pulbangash,23.61,Red,Main,2003,Underground,28.6663,77.207,https://en.wikipedia.org/wiki/Pulbangash_metro_station
+19,Pratap Nagar,24.53,Red,Main,2003,Underground,28.6667,77.1988,https://en.wikipedia.org/wiki/Pratap_Nagar_metro_station
+20,Shastri Nagar,26.49,Red,Main,2003,Underground,28.6701,77.1818,https://en.wikipedia.org/wiki/Shastri_Nagar_metro_station
+21,Inderlok,27.85,Red,Main,2003,Elevated,28.6734,77.1703,https://en.wikipedia.org/wiki/Inderlok_metro_station
+22,Kanhaiya Nagar,29.16,Red,Main,2004,Elevated,28.6824,77.1648,https://en.wikipedia.org/wiki/Kanhaiya_Nagar_metro_station
+23,Keshav Puram,30.06,Red,Main,2004,Elevated,28.6889,77.1618,https://en.wikipedia.org/wiki/Keshav_Puram_metro_station
+24,Netaji Subhash Place,31.43,Red,Main,2004,Elevated,28.6959,77.1525,https://en.wikipedia.org/wiki/Netaji_Subhash_Place_metro_station
+25,Kohat Enclave,32.77,Red,Main,2004,Elevated,28.698,77.1408,https://en.wikipedia.org/wiki/Kohat_Enclave_metro_station
+26,Pitampura,33.92,Red,Main,2004,Elevated,28.7032,77.1324,https://en.wikipedia.org/wiki/Pitampura_metro_station
+27,Rohini East,34.85,Red,Main,2004,Elevated,28.7077,77.1259,https://en.wikipedia.org/wiki/Rohini_East_metro_station
+28,Rohini West,36.35,Red,Main,2004,Elevated,28.715,77.1154,https://en.wikipedia.org/wiki/Rohini_West_metro_station
+29,Rithala,37.56,Red,Main,2004,Elevated,28.7209,77.107,https://en.wikipedia.org/wiki/Rithala_metro_station
+236,Kashmere Gate,0.0,Violet,Main,2017,Underground,28.6675,77.228,https://en.wikipedia.org/wiki/Kashmere_Gate_metro_station
+241,Lal Qila,1.7,Violet,Main,2017,Underground,28.656657,77.236693,https://en.wikipedia.org/wiki/Lal_Qila_metro_station
+242,Jama Masjid,2.43,Violet,Main,2017,Underground,28.651057,77.238135,https://en.wikipedia.org/wiki/Jama_Masjid_metro_station
+243,Delhi Gate,3.86,Violet,Main,2017,Underground,28.640072,77.24038,https://en.wikipedia.org/wiki/Delhi_Gate_metro_station
+244,ITO,5.23,Violet,Main,2015,Underground,28.629371,77.24132,https://en.wikipedia.org/wiki/ITO_metro_station
+238,Mandi House,6.1,Violet,Main,2014,Underground,28.6258,77.2347,https://en.wikipedia.org/wiki/Mandi_House_metro_station
+245,Janpath,7.84,Violet,Main,2014,Underground,28.625059,77.219184,https://en.wikipedia.org/wiki/Janpath_metro_station
+117,Central Secretariat,9.37,Violet,Main,2010,Underground,28.615,77.2118,https://en.wikipedia.org/wiki/Central_Secretariat_metro_station
+118,Khan Market,11.78,Violet,Main,2010,Underground,28.60246,77.227883,https://en.wikipedia.org/wiki/Khan_Market_metro_station
+119,Jawaharlal Nehru Stadium,13.43,Violet,Main,2010,Underground,28.590381,77.233049,https://en.wikipedia.org/wiki/Jawaharlal_Nehru_Stadium_metro_station
+120,Jangpura,14.6,Violet,Main,2010,Underground,28.58331,77.239659,https://en.wikipedia.org/wiki/Jangpura_metro_station
+121,Lajpat Nagar,16.27,Violet,Main,2010,Elevated,28.570566,77.23646,https://en.wikipedia.org/wiki/Lajpat_Nagar_metro_station
+122,Moolchand,17.15,Violet,Main,2010,Elevated,28.563985,77.234245,https://en.wikipedia.org/wiki/Moolchand_metro_station
+123,Kailash Colony,18.55,Violet,Main,2010,Elevated,28.555388,77.241954,https://en.wikipedia.org/wiki/Kailash_Colony_metro_station
+124,Nehru Place,19.76,Violet,Main,2010,Elevated,28.551403,77.251766,https://en.wikipedia.org/wiki/Nehru_Place_metro_station
+125,Kalkaji Mandir,20.62,Violet,Main,2010,Elevated,28.5496,77.2591,https://en.wikipedia.org/wiki/Kalkaji_Mandir_metro_station
+126,Govind Puri,21.48,Violet,Main,2010,Elevated,28.544606,77.264286,https://en.wikipedia.org/wiki/Govind_Puri_metro_station
+127,Harkesh Nagar Okhla,22.72,Violet,Main,2010,Elevated,28.54292,77.27514,https://en.wikipedia.org/wiki/Harkesh_Nagar_Okhla_metro_station
+128,Jasola Apollo,23.82,Violet,Main,2010,Elevated,28.53813,77.283258,https://en.wikipedia.org/wiki/Jasola_Apollo_metro_station
+129,Sarita Vihar,25.17,Violet,Main,2010,Elevated,28.528588,77.288395,https://en.wikipedia.org/wiki/Sarita_Vihar_metro_station
+130,Mohan Estate,26.51,Violet,Main,2011,Elevated,28.519622,77.294627,https://en.wikipedia.org/wiki/Mohan_Estate_metro_station
+131,Tughlakabad,28.76,Violet,Main,2011,Elevated,28.502566,77.299398,https://en.wikipedia.org/wiki/Tughlakabad_metro_station
+132,Badarpur Border,29.98,Violet,Main,2011,Elevated,28.49358,77.30306,https://en.wikipedia.org/wiki/Badarpur_Border_metro_station
+246,Sarai,32.02,Violet,Main,2015,Elevated,28.477682,77.305003,https://en.wikipedia.org/wiki/Sarai_metro_station
+133,NHPC Chowk,34.59,Violet,Main,2015,Elevated,28.45766,77.307422,https://en.wikipedia.org/wiki/NHPC_Chowk_metro_station
+134,Mewala Maharajpur,35.76,Violet,Main,2015,Elevated,28.448495,77.30813,https://en.wikipedia.org/wiki/Mewala_Maharajpur_metro_station
+135,Sector 28,37.07,Violet,Main,2015,Elevated,28.438325,77.309096,https://en.wikipedia.org/wiki/Sector_28_metro_station
+136,Badkhal Mor,39.06,Violet,Main,2015,Elevated,28.422778,77.310278,https://en.wikipedia.org/wiki/Badkhal_Mor_metro_station
+137,Old Faridabad,40.6,Violet,Main,2015,Elevated,28.4108,77.3114,https://en.wikipedia.org/wiki/Old_Faridabad_metro_station
+138,Neelam Chowk Ajronda,42.27,Violet,Main,2015,Elevated,28.3978,77.3124,https://en.wikipedia.org/wiki/Neelam_Chowk_Ajronda_metro_station
+139,Bata Chowk,43.3,Violet,Main,2015,Elevated,28.39,77.31,https://en.wikipedia.org/wiki/Bata_Chowk_metro_station
+140,Escorts Mujesar,45.91,Violet,Main,2015,Elevated,28.370081,77.314954,https://en.wikipedia.org/wiki/Escorts_Mujesar_metro_station
+247,Sant Surdas,47.89,Violet,Main,2018,Elevated,28.354673,77.316218,https://en.wikipedia.org/wiki/Sant_Surdas_(Sihi)_metro_station
+141,Raja Nahar Singh,49.79,Violet,Main,2018,Elevated,28.339801,77.316446,https://en.wikipedia.org/wiki/Raja_Nahar_Singh_metro_station
+30,Samaypur Badli,0.0,Yellow,Main,2015,Elevated,28.745043,77.137672,https://en.wikipedia.org/wiki/Samaypur_Badli_metro_station
+31,Rohini Sector 18-19,0.89,Yellow,Main,2010,Elevated,28.738318,77.139875,"https://en.wikipedia.org/wiki/Rohini_Sector_18,_19_metro_station"
+32,Haiderpur Badli Mor,2.38,Yellow,Main,2015,Elevated,28.729923,77.14913,https://en.wikipedia.org/wiki/Haiderpur_Badli_Mor_metro_station
+33,Jahangirpuri,4.0,Yellow,Main,2009,Elevated,28.7258,77.1628,https://en.wikipedia.org/wiki/Jahangirpuri_metro_station
+34,Adarsh Nagar,5.46,Yellow,Main,2009,Elevated,28.716535,77.170452,https://en.wikipedia.org/wiki/Adarsh_Nagar_metro_station
+35,Azadpur,7.05,Yellow,Main,2004,Elevated,28.7073,77.18,https://en.wikipedia.org/wiki/Azadpur_metro_station
+36,Model Town,8.71,Yellow,Main,2009,Elevated,28.7028,77.1939,"https://en.wikipedia.org/wiki/Model_Town_metro_station,_Delhi"
+37,GTB Nagar,10.29,Yellow,Main,2009,Elevated,28.6982,77.207,https://en.wikipedia.org/wiki/GTB_Nagar_metro_station
+38,Vishwavidyalaya,11.25,Yellow,Main,2004,Underground,28.6948,77.2146,https://en.wikipedia.org/wiki/Vishwavidyalaya_metro_station_(Delhi)
+39,Vidhan Sabha,12.45,Yellow,Main,2004,Underground,28.6879,77.2218,https://en.wikipedia.org/wiki/Vidhan_Sabha_metro_station
+40,Civil Lines,13.9,Yellow,Main,2004,Underground,28.6769,77.225,https://en.wikipedia.org/wiki/Civil_Lines_metro_station_(Delhi)
+41,Kashmere Gate,15.15,Yellow,Main,2004,Underground,28.6675,77.228,https://en.wikipedia.org/wiki/Kashmere_Gate_metro_station
+42,Chandni Chowk,16.41,Yellow,Main,2005,Underground,28.6578,77.2302,https://en.wikipedia.org/wiki/Chandni_Chowk_metro_station_(Delhi)
+43,Chawri Bazar,17.55,Yellow,Main,2005,Underground,28.6496,77.2262,https://en.wikipedia.org/wiki/Chawri_Bazar_metro_station
+44,New Delhi,18.63,Yellow,Main,2005,Underground,28.6422,77.2215,https://en.wikipedia.org/wiki/New_Delhi_metro_station
+45,Rajiv Chowk,19.85,Yellow,Main,2005,Underground,28.6328,77.2196,https://en.wikipedia.org/wiki/Rajiv_Chowk_metro_station
+46,Patel Chowk,21.36,Yellow,Main,2005,Underground,28.6232,77.2118,https://en.wikipedia.org/wiki/Patel_Chowk_metro_station
+47,Central Secretariat,22.41,Yellow,Main,2005,Underground,28.615,77.2118,https://en.wikipedia.org/wiki/Central_Secretariat_metro_station
+48,Udyog Bhawan,22.91,Yellow,Main,2010,Underground,28.61106,77.211964,https://en.wikipedia.org/wiki/Udyog_Bhawan_metro_station
+49,Race Course,24.63,Yellow,Main,2010,Underground,28.597658,77.211176,https://en.wikipedia.org/wiki/Race_Course_metro_station
+50,Jorbagh,26.11,Yellow,Main,2005,Underground,28.5861,77.212,https://en.wikipedia.org/wiki/Jor_Bagh_metro_station
+51,INA,27.6,Yellow,Main,2010,Underground,28.5752,77.2073,https://en.wikipedia.org/wiki/Dilli_Haat_–_INA_metro_station
+52,AIIMS,28.67,Yellow,Main,2010,Underground,28.566896,77.208043,https://en.wikipedia.org/wiki/AIIMS_metro_station
+53,Green Park,29.81,Yellow,Main,2010,Underground,28.558038,77.207026,https://en.wikipedia.org/wiki/Green_Park_metro_station
+54,Hauz Khas,31.68,Yellow,Main,2010,Underground,28.543444,77.206344,https://en.wikipedia.org/wiki/Hauz_Khas_metro_station
+55,Malviya Nagar,33.6,Yellow,Main,2010,Underground,28.5287,77.2033,https://en.wikipedia.org/wiki/Malviya_Nagar_metro_station
+56,Saket,34.67,Yellow,Main,2010,Underground,28.520492,77.201535,https://en.wikipedia.org/wiki/Saket_metro_station
+57,Qutab Minar,36.63,Yellow,Main,2010,Underground,28.512951,77.186319,https://en.wikipedia.org/wiki/Qutab_Minar_metro_station
+58,Chattarpur,38.15,Yellow,Main,2010,Elevated,28.5066,77.1749,https://en.wikipedia.org/wiki/Chhatarpur_metro_station
+59,Sultanpur,39.94,Yellow,Main,2010,Elevated,28.499189,77.161389,https://en.wikipedia.org/wiki/Sultanpur_metro_station
+60,Ghitorni,41.48,Yellow,Main,2010,Elevated,28.493785,77.14915,https://en.wikipedia.org/wiki/Ghitorni_metro_station
+61,Arjan Garh,44.59,Yellow,Main,2010,Elevated,28.4808,77.1258,https://en.wikipedia.org/wiki/Arjan_Garh_metro_station
+62,Guru Dronacharya,47.21,Yellow,Main,2010,Elevated,28.4819,77.1025,https://en.wikipedia.org/wiki/Guru_Dronacharya_metro_station
+63,Sikandarpur,48.27,Yellow,Main,2010,Elevated,28.4814,77.0931,https://en.wikipedia.org/wiki/Sikandarpur_metro_station
+64,MG Road,49.77,Yellow,Main,2010,Elevated,28.479556,77.079952,https://en.wikipedia.org/wiki/MG_Road_metro_station_(Gurgaon)
+65,IFFCO Chowk,51.04,Yellow,Main,2010,Elevated,28.472089,77.072554,https://en.wikipedia.org/wiki/IFFCO_Chowk_metro_station
+66,Huda City Centre,52.68,Yellow,Main,2010,Elevated,28.459269,77.072419,https://en.wikipedia.org/wiki/Millennium_City_Centre_Gurugram_metro_station
