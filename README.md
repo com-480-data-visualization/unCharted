@@ -72,6 +72,13 @@ Our work took inspiration from highly effective transit visualizations, drawing 
 
 See the [README.md](./website/README.md) for more information about running the website locally and the dependencies needed.
 
+[Screencast](https://drive.google.com/file/d/1I-h3UguppYddp1MMlbnWWNANHt_z3twk/view?usp=sharing)
+
+[Hosted website](https://uncharted-delhi.netlify.app/)
+
+[Process book](./unCharted-ProcessBook.pdf)
+
+
 ## Late policy
 
 - < 24h: 80% of the grade for the milestone
