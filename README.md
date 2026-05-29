@@ -67,6 +67,8 @@ Our work took inspiration from highly effective transit visualizations, drawing 
 
 **80% of the final grade**
 
+See the [README.md](./Milestone2.pdf) for more information about running the website locally and the dependencies needed.
+
 ## Late policy
 
 - < 24h: 80% of the grade for the milestone
