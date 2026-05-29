@@ -7,14 +7,15 @@
 | Verter STOILOV     | 328691 |
 | Malen RAYCHEV      | 287015 |
 
+### Visit the website online! :) **([link](https://uncharted-delhi.netlify.app/))**
+
+### Watch the screencast! :) **([link](https://drive.google.com/file/d/1I-h3UguppYddp1MMlbnWWNANHt_z3twk/view?usp=sharing))**
+
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
 ## Milestone 1 (20th March)
 
-### Visit the website online! :) **([link](https://uncharted-delhi.netlify.app/))**
-
-### Watch the screencast! :) **([link](https://drive.google.com/file/d/1I-h3UguppYddp1MMlbnWWNANHt_z3twk/view?usp=sharing))**
 
 ### Dataset
 
